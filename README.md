@@ -1,104 +1,116 @@
-# Deed Utility Layer for Meme Token Markets
-Deed is a Progressive Web Application (PWA) designed to add a utility layer to meme token markets, available on the testnet at https://deed.so/.
+# Deed: Onchain Economies & Capital Markets for (Web2) Internet
 
-## Overview
+[https://deed.so](https://deed.so)
 
-Memecoins drive 73% of volumes on major decentralized exchanges (DEXs). The primary utility of meme tokens today is speculation. The characteristics of these markets are reminiscent of the first stock markets in Amsterdam:
+Deed is building the **onchain asset economies & capital market** layer for Web2 assets — including YouTube channels, Instagram accounts, games, apps, Shopify stores or any website or app — by turning communities into contributors, not just consumers.
 
-* Short-life: 99% of meme tokens created are abandoned daily with liquidity withdrawals.
-* Scams: Rug pulls are common.
-* Low liquidity: Unstable and bait LP farms with unrealistic APRs to trap liquidity.
-* Quick profits: Traders aim for quick gains.
-* Casino wins: Only a small percentage of experienced traders make money while retail investors mostly lose.
+## 🔍 What is Deed?
 
-## Problems in Current Meme Token Markets
+Deed is a mobile based dapp that lets:
 
-### For Traders and Liquidity Providers (LPs)
+- **Asset Owners** launch liquidity pools for online assets and assign "deeds" (tasks) to grow asset metrics (subs, followers, signups, sales etc).
+- **Communities** perform deeds to earn SOL/ETH instantly or asset tokens from liquidity pools.
+- **Traders/LPs** access high-yield pools backed by verified assets and trade tokens of fast-growing internet properties.
 
-* Short-life span with 99% pools abandoned daily due to rug pulls.
-* Duplicate tokens with the same metadata splitting market TVLs and volumes.
-* Liquidity traps with high yield pools.
-* No underlying asset data, metrics, or news to consistently trade meme tokens.
-* Poor trading experience on mobile devices.
+---
 
-### For Meme Token Creators
+## 🌍 Why It Matters
 
-* Short-term and unsteady earnings with meme tokens created and abandoned daily.
-* High competition and lack of moat due to duplicate tokens with the same metadata.
-* Difficulty in building genuine communities around memes due to duplicacy of token metadata.
-* Misaligned incentive structure leading to poor user experience and lower volumes and earnings.
+The internet is home to 200M+ communities — from creators to apps — but there's no native way for those communities to:
 
-# Deed: Bringing Utility to Meme Token Markets
+- Earn from asset growth
+- Contribute to development or distribution
+- Share in revenues or token upside
 
+Deed unlocks this potential by turning each asset into a tokenized onchain economy.
 
-### For Asset Owners
+---
 
-![https___3db192e1babc29d34848745d03bcadc0 cdn bubble io_f1721661670015x971412971372109800_Screenshot%202024-07-22%20at%208 51 00%E2%80%AFPM](https://github.com/user-attachments/assets/49d885db-d9bb-4ae3-94ab-80cb9ff5f3cb)
+## 🛠️ Product Features
 
+### ✅ For Asset Owners
+- Launch token & trading pool for any online asset in 3 clicks
+- Assign growth-focused deeds with flexible reward models
+- Earn passive income from trade fees and platform incentives
 
+### ✅ For Communities
+- Get paid for real work (e.g., X posts, AMAs, Reels, Signups, sales, reviews, invites etc)
+- Share in asset revenues and token upside while working for their growth.
 
-* Discover FMV (Fair Market Value) of internet assets.
-* Own a locked stake in LP to earn trade fees based on trading volume.
-* Borrow funds against stake in LP.
-* Integrate meme tokens with business to accept or make payments and offer loyalty rewards to customers.
+### ✅ For Traders & LPs
+- Trade tokens backed by growing online metrics
+- LP into high-yield pools with zero rug risk
+- Receive real-time updates on asset growth (subs, views, etc.)
 
+---
 
-### For Traders and LPs
+## 🧱 Built With
 
+- **Blockchain**: Solana (live testnet), Base (upcoming)
+- **Frontend**: Bubble.io (testnet), React/Next.js (mainnet)
+- **Token Infra**: Custom Solana smart contracts + Jupiter SDK integration + hel.io payment & custodial APIs
+- **Deed Tasks**: Onchain referral + proof-of-work tracking
 
-![Screenshot 2024-07-24 at 2 34 11 PM (4)](https://github.com/user-attachments/assets/1cf2b5f4-7187-46ee-8f38-9c028d45e5ae)
+---
 
+---
 
+## 🔑 Token: $DEED
 
-
-* Trade meme tokens based on internet asset metrics data and news.
-* Higher life span of tokens with real validated assets and owners.
-* Unique tokens linked to unique assets, reducing duplicacy and confusion.
-* High yield farms with lower risk of rug pulls.
-
-
-### For Meme Token Operators
-* Own or operate a unique meme token linked to an internet asset, eliminating competitors post-launch.
-* Build meme communities around internet assets.
-
-
-## Product Development
-
-### Testnet
-
-* PWA: Built using Tatum orderbook infrastructure.
-* Blockchain: Utilizing Solana for blockchain infrastructure.
-
-### Mainnet
-
-* Utility Layer: Plan to build a utility layer between popular Solana and Ethereum DEXs using available SDKs like Jupiter (Solana).
-* One-App Solution: Users can create utility meme tokens, launch liquidity pools, and trade all within one app, benefiting from unique and utility-focused meme tokens.
-
-## Enhanced UX for Pool Creation
-
-Create utility meme tokens in 1 click & deploy liquidity pools in 2 clicks within Deed PWA dapp. No need to jump apps for tokenization & deploying pools.
-
-![Screenshot 2024-07-24 at 2 37 16 PM](https://github.com/user-attachments/assets/f2be278b-5ed2-42b5-816a-9361dacdd593)
-
-## DEED utilities & tokenomics
-
-DEED is the utility token of Deed dapp. DEED is earned by liquidity providers based on trading volumes at a rate of 1 DEED for every $100 of trading volume (rewards subject to voting by DEED holders).
-
-Utils of $DEED token-
-
-* Choose to provide liquidity in DEED for higher APRs.
-* Earn trade fees in DEED & make payments related to internet asset.
-* Make loan repayments with DEED earnings in pool.
-* Create liquidity pools with DEED pairs to earn rewards based on volumes.
-
-## Tokenomics
-
-50% of DEED reserved for LPs who earn DEED based on volumes. Incentives of team & investors aligned with interest of users through proportional allocation based on trading volumes.
+- **Utility**: Liquidity incentives, trade fee payouts, task rewards, payment method, lending and repayments 
+- **Total Supply**: 1.5B DEED
+- **TGE**: July 15, 2025 (tentative)
+- **Initial FDV**: $15M
 
 
-![Screenshot 2024-07-24 at 5 22 21 PM](https://github.com/user-attachments/assets/e08df719-da17-471d-8d2a-97394214759e)
+### Distribution Highlights
+
+| Category                        | Allocation | TGE Unlock | Cliff Period     | Vesting Schedule                     |
+|--------------------------------|------------|------------|------------------|--------------------------------------|
+| Pre-TGE Sale                   | 12%        | 40%        | None             | 15% monthly over 4 months            |
+| Community Sale-I               | 4%         | 40%        | Until sale ends  | 15% monthly over 4 months            |
+| Community Sale-II              | 4%         | 30%        | Until sale ends  | 10% monthly over 7 months            |
+| Community Sale-III             | 13%        | 30%        | Until sale ends  | 10% monthly over 7 months            |
+| Private Sale (Seed & Strategic)| 5%         | 10%        | 6 months         | Linear over 24 months                |
+| Liquidity & Market Making      | 12%        | 75%        | None             | Remaining 25% after 12 months        |
+| Community & Ecosystem Incentives| 20%       | 10%        | None             | Linear over 24 months                |
+| DAO Treasury                   | 10%        | 20%        | None             | Linear over 24 months                |
+| Team                           | 20%        | 0%         | 12 months        | Linear over 30 months                |
 
 
-### Contact us
 
-For any job, partnership or funding queries email at reachus@deed.so
+## 🚀 Project Traction
+
+- ✅ 11 pools live on testnet
+- ✅ $2.8M+ in trade volume
+- ✅ 300 early users with ~49% m-o-m retention
+- ✅ 200+ deeds completed in asset economies
+
+---
+
+## 📌 Live Now (Testnet)
+
+- [Deed App](https://deed.so/)
+- [Testnet App](https://deed.so/testnet-dapp)
+
+---
+
+## 📬 Contact
+
+- General: [reachus@deed.so](mailto:reachus@deed.so)
+- Founder: [robbin@deed.so](mailto:robbin@deed.so)
+- Twitter: [@DeedLabs](https://x.com/DeedLabs)
+- Telegram:[@deedlabs](https://t.me/deedlabs)
+
+
+
+## 🧠 Our Vision
+
+To build **onchain economies & capital markets for the (web2) internet** — where communities don't just consume, but **co-create, contribute, and capture value** from the assets they love.
+
+---
+
+© 2025 Deed Labs | [Terms](https://deed.so/terms-conditions)
+
+
+
