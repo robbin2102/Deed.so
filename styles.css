@@ -214,19 +214,55 @@ body {
 }
 
 .video-container {
+    position: relative;
     width: 100%;
     max-width: 400px;
     aspect-ratio: 9 / 19.5;
-    background: #000;
-    border-radius: 24px;
-    overflow: hidden;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    background: #1a1a1a;
+    border-radius: 40px;
+    padding: 14px;
+    box-shadow:
+        0 0 0 2px #333,
+        0 0 0 4px #1a1a1a,
+        0 20px 60px rgba(0, 0, 0, 0.3),
+        inset 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.video-container::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 22px;
+    background: #1a1a1a;
+    border-radius: 0 0 16px 16px;
+    z-index: 10;
+    box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.video-container::after {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 5px;
+    background: #0a0a0a;
+    border-radius: 10px;
+    z-index: 11;
 }
 
 .video-container iframe {
+    position: relative;
     width: 100%;
     height: 100%;
     border: none;
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 5;
 }
 
 /* Founder Section */
