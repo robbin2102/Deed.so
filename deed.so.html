@@ -1,0 +1,3757 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://deed-pwa-lite.bubbleapps.io/version-test -->
+<html lang="en" class="wf-dmsans-n4-active wf-dmsans-n5-active wf-dmsans-n6-active wf-dmsans-n7-active wf-lato-n4-active wf-montserrat-n5-active wf-active b-root" style="height: 100%;"><div id="in-page-channel-node-id" data-channel-name="in_page_channel_GQiNbg"></div><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>deed.so</title>
+<script async="" src="./deed.so_files/gtm.js"></script><script type="text/javascript">
+    window.bubble_session_uid = '1762096441125x994980660313684600';
+</script>
+<script type="text/javascript">
+    window.headers_source_maps = [["plugin_main_headers_1494464159228x621608555717853200",221,225],["plugin_main_headers_1497473108162x748255442121523200",226,237],["plugin_main_headers_1499780054879x111265002286743550",238,239],["plugin_main_headers_1504424270272x619283445634039800",240,244],["plugin_main_headers_1529535510382x166541069778419700",245,249],["plugin_main_headers_1532747245535x239612833780727800",250,275],["plugin_main_headers_1568299250417x684448291308175400",276,277],["plugin_main_headers_1583841347075x532357943091003400",278,283],["plugin_main_headers_1591196268063x958661259682644000",284,296],["plugin_main_headers_1623997728441x797286939192459300",297,303],["plugin_main_headers_1660666011260x416119057345937400",304,305],["plugin_main_headers_1666692033053x981499519916048400",306,309],["plugin_main_headers_1680110374647x249108010620944400",310,441],["plugin_main_headers_1687867275859x268526593457520640",442,443],["plugin_main_headers_1701167433790x572377910433808400",444,575],["plugin_main_headers_1718800673934x330169975399252000",576,578],["plugin_main_headers_1719155784382x548625844578811900",579,582],["plugin_main_headers_1728067805722x258704927518359550",583,593],["plugin_page_headers_AAC",594,596],["plugin_page_headers_AAC",597,599]]
+</script>
+<script type="text/javascript">
+function make_proxy(target, name) {
+  return new Proxy(target, {
+    get: function(target, prop) {
+      if (prop in target) {
+        return target[prop];
+      }
+      throw new Error('The variable ' + name + ' is not fully initialized yet');
+    }
+  });
+}
+window.appquery = make_proxy({
+  app_version: function() { return "test"; },
+  last_change: function() { return "38469888034";},
+}, 'appquery');
+window.Lib = new Proxy(function() {}, {
+  get: function(target, prop) {
+    if (prop === 'is_skeleton') {
+      return true;
+    }
+    throw new Error('The variable ' + Lib + ' is not fully initialized yet');
+  },
+  apply: function() {
+    return make_proxy({
+      current_user: function() {
+        return make_proxy({ id: "1762096441125x994980660313684600" }, 'Lib().current_user');
+      }
+    }, 'Lib()');
+  }
+});
+</script>
+<script type="text/javascript">
+function load_error_function (event) {
+  return window.load_error_log.push({ msg: event.message, error_url: event.filename, line: event.lineno, col: event.colno })
+}
+window.load_error_log = [];
+window.addEventListener('error', load_error_function);
+window.disableLoadErrorFunction = function () {
+  window.removeEventListener('error', load_error_function);
+}
+</script>
+<meta name="referrer" content="origin">
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_early_js'] = Date.now();
+</script><script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="./deed.so_files/early.js"></script><script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_early_js'] = Date.now();
+</script>
+<link rel="stylesheet" href="./deed.so_files/css"><script type="text/javascript">(function () {
+    function onWebFontFinish () {
+        window.google_web_fonts_active = true;
+if (window.google_web_fonts_active_cb) {
+    window.google_web_fonts_active_cb();
+}
+        (function fontface_loaded_snippet (font) {
+  if (window.fontface_loaded == null) {
+    window.fontface_loaded = {}
+  }
+  if (font != null) {
+    window.fontface_loaded[font] = true
+  } else {
+    window.all_fontface_loaded = true
+  }
+  if (window.fontface_webfonts_loaded_cb) {
+    return window.fontface_webfonts_loaded_cb(font)
+  }
+})()
+    }
+    const WebFontConfig = {'google': { families: ["DM Sans:regular","DM Sans:regular","DM Sans:500","DM Sans:500","DM Sans:600","DM Sans:600","DM Sans:700","DM Sans:700","Lato:regular","Montserrat:500"] },
+        active: function() {
+            onWebFontFinish()
+        },
+        inactive: function() {
+            console.log('Failed to load all the fonts');
+            onWebFontFinish()
+        },
+        fontinactive: function(family_name, fvd) {
+            console.log('fontinactive being called for ' + family_name + ', Google says the fonts didnt render');
+            onWebFontFinish()
+        }
+    }
+        window.WebFont.load(WebFontConfig);
+})();</script>
+<script>
+(function initialize_data() {
+const xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+        const data = JSON.parse(this.responseText);
+
+        function init_data() {
+            data.forEach(function(d) {
+                Lib().db_instance().initialize_data(d.id, d.data, d.type, d.version);
+            })
+        }
+
+        if (window.Lib && window.Lib.is_skeleton == null) {
+            init_data();
+        } else {
+            window.Lib_post_load = init_data;
+        }
+    }
+};
+xhr.open("GET", "https://deed-pwa-lite.bubbleapps.io/version-test/api/1.1/init/data?location=" + encodeURIComponent(window.location.href), true);
+xhr.send();
+})();
+</script>
+<script type="text/javascript">window.gm_key = "AIzaSyAlT1MzDJL1hTzjgn_-PbAD3NQEIKjcJi4";</script>
+<script type="text/javascript">window.glrl_key_status = false;</script>
+<script type="text/javascript">window.bubble_page_load_id = "1762096734888x1128";</script>
+<script type="text/javascript">window.bubble_plp_token = "xH1oARn+0IIjE1F6Wc0jSRxfywe/F0OX1qazpW+Xwuw=";</script>
+<script type="text/javascript">window.bubble_is_leanjs = false;</script>
+<script type="text/javascript">window.bubble_shim_modules = false;</script>
+<script type="text/javascript">window.bubble_new_reactivity = true;</script>
+<link rel="icon" type="image/png" href="https://3db192e1babc29d34848745d03bcadc0.cdn.bubble.io/f1530294839424x143528842134401200/Icon-no-clearspace.png">
+<meta name="fragment" content="!">
+<meta name="description" content="Bubble introduces a new way to build a web application. It’s a point-and-click programming tool. Bubble hosts all applications on its cloud platform.">
+<meta name="description" content="Bubble introduces a new way to build a web application. It’s a point-and-click programming tool. Bubble hosts all applications on its cloud platform.">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="Bubble - Visual Programming">
+<meta name="twitter:title" content="Bubble - Visual Programming">
+<meta property="og:site_name" content="Bubble">
+<meta name="twitter:site_name" content="Bubble">
+<meta property="og:description" content="Build stuff without code and launch a startup without a tech-cofounder! Bubble is a visual programing language. Instead of typing code, use a visual editor to build applications. ">
+<meta name="twitter:description" content="Build stuff without code and launch a startup without a tech-cofounder! Bubble is a visual programing language. Instead of typing code, use a visual editor to build applications. ">
+<link rel="image_src" href="https://3db192e1babc29d34848745d03bcadc0.cdn.bubble.io/f1673991650471x907829260206606500/URL%20Preview%20Image%20%E2%80%93%20Meta%20%E2%80%93%20Tagline.png">
+<meta property="og:image" content="https://3db192e1babc29d34848745d03bcadc0.cdn.bubble.io/f1673991650471x907829260206606500/URL%20Preview%20Image%20%E2%80%93%20Meta%20%E2%80%93%20Tagline.png">
+<meta name="twitter:image:src" content="https://3db192e1babc29d34848745d03bcadc0.cdn.bubble.io/f1673991650471x907829260206606500/URL%20Preview%20Image%20%E2%80%93%20Meta%20%E2%80%93%20Tagline.png">
+<meta property="og:url" content="https://deed-pwa-lite.bubbleapps.io/version-test">
+<meta property="og:type" content="website">
+<meta property="fb:app_id" content="340887986039814">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="https://pwa.xyz/gbBgEfe69706DRgN1lYN%2FzvttPVMpBzAeIYc.png?alt=media&amp;token=fb82def7-09c9-4895-9ddc-6ea1704fe90c" sizes="180x180">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, minimal-ui">
+<script type="text/javascript">window._p = '{"id":"app_free2","no_branding":false,"import_export_csv":false,"custom_domain":false}';</script>
+<script type="text/javascript">window.bubble_page_name = "index";</script>
+<script type="text/javascript">window.__bubble_module_mode = false;</script>
+<link type="text/css" href="./deed.so_files/run.css" rel="stylesheet">
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_run_js'] = Date.now();
+</script>
+<script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="./deed.so_files/pre_run_jquery.js"></script>
+<script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="./deed.so_files/run.js"></script>
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_run_js'] = Date.now();
+</script>
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_static_js'] = Date.now();
+</script><script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="./deed.so_files/static.js"></script><script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_static_js'] = Date.now();
+</script>
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_dynamic_js'] = Date.now();
+</script><script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="./deed.so_files/dynamic.js"></script><script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_dynamic_js'] = Date.now();
+</script>
+<script type="text/javascript">window._bubble_page_load_data.js_execution_timings.plugin_js_start_execution = Date.now();</script>
+<!-- 1494464159228x621608555717853200 -->
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1494464159228x621608555717853200");
+</script>
+<!-- 1497473108162x748255442121523200 -->
+<script type="text/javascript" src="./deed.so_files/clipboard.min.js"></script>
+
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1497473108162x748255442121523200");
+</script>
+
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1497473108162x748255442121523200");
+</script>
+<!-- 1499780054879x111265002286743550 -->
+<script id="apexcharts" src="./deed.so_files/apexcharts.min.js"></script>
+<!-- 1504424270272x619283445634039800 -->
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1504424270272x619283445634039800");
+</script>
+<!-- 1529535510382x166541069778419700 -->
+<link async="" rel="stylesheet" href="./deed.so_files/iziToast.min.css">
+<script async="" src="./deed.so_files/iziToast.min.js" type="text/javascript"></script>
+
+<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">-->
+<!-- 1532747245535x239612833780727800 -->
+<style>
+/* width */
+::-webkit-scrollbar {
+    width: px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: ;
+    box-shadow: inset 0 0 5px ; 
+    border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: ;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: ;
+}
+</style>
+
+<!-- 1568299250417x684448291308175400 -->
+<script>function classify(targetNode){if(window.classifyLoaded)return;window.classifyLoaded=!0;const config={attributes:!0,childList:!0,subtree:!0,attributeFilter:["id"]},callback=function(){var nodeList=document.querySelectorAll('[id*="{"][id*="}"]');nodeList.forEach(node=>{var id=node.id.replace(/'/g,'"'),start=id.indexOf("{"),end=id.indexOf("}"),stringObj=id.substring(start,end+1);try{var object=eval("("+stringObj+")")}catch{return}node.removeAttribute("id"),(newId=id.replace(stringObj,""))&&(node.id=newId),object.class&&classes(node,object.class),object.addClass&&addClass(node,object.addClass),object.removeClass&&removeClass(node,object.removeClass)});var nodeList=document.querySelectorAll('[id*="["][id*="]"]');nodeList.forEach(node=>{var id=node.id,start=id.indexOf("["),end=id.lastIndexOf("]"),codeString=id.substring(start+1,end);node.removeAttribute("id"),(newId=id.replace(`[${codeString}]`,""))&&(node.id=newId);var p={self:node,box:node.closest(".bubble-r-box"),line:node.closest(".bubble-r-line"),siblings:getSiblings(node.closest(".bubble-r-box"),"bubble-r-box"),parentGroup:node.closest(".bubble-element.Group"),cells:getSiblings(node.closest(".bubble-element.GroupItem.group-item"),"bubble-element GroupItem group-item entry-")};try{eval("("+codeString+")")}catch(e){throw"CLASSIFY JAVASCRIPT COMMAND ERROR: "+e.message}})},addClass=function(e,s){var t=s.split(" ");e.classList.add(...t)},removeClass=function(e,s){var t=s.split(" ");e.classList.remove(...t)},classes=function(e,s){e.className=e.className.replace(/_+[^\ ]*/g,""),e.classList.add(...s)},getSiblings=function(e,s){if(e){var t=e.parentNode.childNodes,o=[];return t.forEach(e=>{e.className.includes(s)&&o.push(e)}),o}},observer=new MutationObserver(callback);observer.observe(targetNode,config),callback()}var classifyCount=0,classifyWait=setInterval(function(){var e=document.querySelector("body");if(e&&(classify(e),clearInterval(classifyWait)),300==++classifyCount)throw"Classify plugin launch failed! Could not find the target node..."},50);</script>
+<!-- 1583841347075x532357943091003400 -->
+<style>
+    .row:after, .row:before {
+        content: unset !important;
+    }
+</style>
+<!-- 1591196268063x958661259682644000 -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- 1623997728441x797286939192459300 -->
+<script>
+window.CONTRACT_ADDRESS = ;
+window.CONTRACT_ABI = ;
+</script>
+<script src="./deed.so_files/main.js"></script>
+
+<!-- 1660666011260x416119057345937400 -->
+<script src="./deed.so_files/feather-icons"></script>
+<!-- 1666692033053x981499519916048400 -->
+
+
+
+<!-- 1680110374647x249108010620944400 -->
+<script type="module" src="./deed.so_files/index.js"></script>
+<style>
+    *, *::after, *::before {
+        box-sizing: border-box;
+    }
+    
+    /* Because Bubble's default Radio button depends on box-sizing: content-box to looks correct, this is some manual patches */
+    .RadioButtons.radio label::before {
+        width: 18px;
+        height: 18px;
+        margin-top: 0px !important;
+        top: 50% !important;
+		transform: translateY(-50%) !important;
+    }
+
+    .RadioButtons.radio label::after  {
+        width: 10px;
+        height: 10px;
+        margin-top: 0;
+        left: 4px;
+		top: 50%;
+		transform: translateY(-50%) scale(0, 0) !important;
+    }
+    .RadioButtons.radio input[type="radio"]:checked + label::after {
+        transform: translateY(-50%) scale(1, 1) !important;
+    }
+
+</style>
+<style id="override-default-checkbox" media="max-width: 1px">
+    /* This code is generated with the following SCSS code: https://sass-lang.com/playground/#eJylV21zozYQ/mz/CjXX1ElriCQECGfy4c7tTT+kf+A6nRsBwtYEAwNynKST/96VAMd2sM+9iz0e7bIvz75olxDycyySh0VdrovUScq8rL+SGXoU9ZXjJC9OspTJQ1w+OfHCKYsp+uBFnz6GwfXt+L0eHdJbiiLNZSvRWvhs/wYteEc8qyKVWtYrVQgtwcTHz+YzaIJ9E8ShsRN4/CN4UtWIOJcpaP8ems+gdvBNKDt2tijGbryOgenIXK5kod15p4pyEcsc/TtG6FHWWiUid0SuFsUMrVQKRtFPalWVtRaFvh2/njCkimqt/9bPlbzrcf1j7SJkIDbqRRWLGZzrVNYOsG7Ho41K9XKGKK4MtZRqsdRbsiobpVUJSGqZC60eJTDf8jFDRVnswxuVa52rQraPjLR1tiVXol4osIcRr57gF99aeMOBGwQiTS1oEBw5q/LFEVUlRS2K5M2Hs5Hxg9KDj8ohrgayjwy7tDGCbSkB34PTPILDdZ1fXaRCi5laiYW8AeZvT6t8eunN4Ygyled3E2NvgoBdNHeTpdbV7OZms9m4G88t68UNxRgbxQl6VHLzqXy6m0DILkeEosjFdHLp/QH2KqGXKL2b/EUATOQh4mIeYHLPUOh6YQQn4oY4RH7LnxPXJ5wh5kbY4z6I08DnQHLs4cBoYy+wpO+xOXZDRhj2LSMMCPhnEfYjavQJDTkwPGwNgv2IkwhUCInCMAAG5WAKu5iwAIcUGGCSEcuhHuUcOGEUBGRuOBj72EOBi33OjQwhmDMfGB4hVgmCw1bCh8SQe89GG7XU3HOZQQx0wEPGkeeGHgNUEXigEF53mDMTLgm3fEhGxMKtGrOp6ozekzZztPMBJOcQOu0gAR1FQLWIDcXDEDLYxmRpnwHdRm21MTUJN2kBMojAI+nSBrSPIwZx2rx6RoD63OTPZh4MwaMoYJbhe14wBwYESS0DihAaCcaJUbG1pWi/Jb5MusaLc7iFXfvcmP7pjtBscLq4th3dzaRz2vn/tDAknQBEeIIo223hFlqyrmsYS3MzCSe2ranRoFxA18MXbgAijj3/yfAuE2GHsiUJgz2mPX85GasZIQfDvJ1x3XQjZpodFbIze4Y+8IxnUXpCsBapWjczxI6YM6t0uxvsqqhqyHb9/DWVmVjnehjqwR78Lgv9xoFJvYjF1QkLX0HgegoN5g/aOtjrw2CSsoAR2uiTqLaj+0S6smzfQbOuM5HIA7vj9jv6ZRbLrKxlt9NO7rURtGFjylqVqoDcGtbgOhtB6qpcPIN+XiYPhqPLql04o1xmujv2rYTxpSH7TdnTJiXQ9TN0cWHI3SU5/NKVZVO7jq6teLclB0R3GhmqVj1do6bMVXpc1GZyiuyOq4S5ijsutj18VL0VmJqqWb3dXXn4KtQvz9euPCKDTP94dUQMIa71fnW61d0Wx2+T3panIyxQaI/VrI0dKiyvHHg4RebXBrMSzYNjB+A2A7tb38r0bxPnyFqZN+CJ7IPZMzIk0PcPvPQkV6aJkDNQk+4OdYX/FdFBqYEeAVELUDSVTDQUFfxDsx4WtKvfYfda1LWE9yZtEt8d38U1JNG3ggUnU2iG0e69He1ejX7yDvyrYny9WtW+p0ZDN/UsY7Qz1kPbm7bfCdA7F+D7LnrbyrZCJ/rtUPIcYOwg2H4xDMTZ38GihFfnPC83Mj3bjT8Y/49YDLbAX/8DF/tkvA== */
+    .bubble-element.Checkbox label {
+        vertical-align: middle !important;
+    }
+
+    .bubble-element.Checkbox input[type=checkbox] {
+        box-sizing: border-box;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        background: none !important;
+        outline: none;
+        border: none;
+        margin: 0 8px 0 0;
+        vertical-align: middle;
+        padding: 0;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -o-appearance: none;
+        transition: 0.2s;
+        --checkmark-svg: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0.8 12 9.02'%3E%3Cpath d='M10.293 1.08601L4 7.37901L1.707 5.08601C1.5184 4.90385 1.2658 4.80306 1.0036 4.80534C0.741405 4.80761 0.490592 4.91278 0.305184 5.09819C0.119776 5.2836 0.0146072 5.53441 0.0123288 5.79661C0.0100503 6.05881 0.110845 6.31141 0.293003 6.50001L3.293 9.50001C3.48053 9.68748 3.73484 9.7928 4 9.7928C4.26517 9.7928 4.51947 9.68748 4.707 9.50001L11.707 2.50001C11.8892 2.31141 11.99 2.05881 11.9877 1.79661C11.9854 1.53441 11.8802 1.2836 11.6948 1.09819C11.5094 0.912783 11.2586 0.807614 10.9964 0.805336C10.7342 0.803057 10.4816 0.903852 10.293 1.08601Z' fill='black'%3E%3C/path%3E%3C/svg%3E");
+        --handle-svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='28 116 200 24'%3E%3Cpath fill='currentColor' d='M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12Z'%3E%3C/path%3E%3C/svg%3E");
+        --cz-checkbox-border-width: 1px;
+        --cz-checkbox-border-color: #8f8f9d;
+        --cz-checkbox-border-radius: 4px;
+        --cz-checkbox-bg-on: var(--color_primary_default);
+        --cz-checkbox-bg-indeterminate: var(--color_primary_default);
+        --cz-checkbox-bg-disabled: rgba(var(--color_primary_default_rgb), 0.5);
+        --cz-checkbox-handle-color-on: var(--color_primary_contrast_default);
+        --cz-checkbox-padding: 4px;
+        --cz-checkbox-bg-off: var(--color_surface_default);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:before {
+        box-sizing: border-box;
+        cursor: pointer;
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background: var(--cz-checkbox-bg-off, none);
+        border: var(--cz-checkbox-border-width, 0px) solid var(--cz-checkbox-border-color, transparent);
+        border-radius: var(--cz-checkbox-border-radius, 4px);
+        transition: background-color 0.2s;
+    }
+    .bubble-element.Checkbox input[type=checkbox]:after {
+        box-sizing: border-box;
+        cursor: pointer;
+        position: absolute;
+        display: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        mask-image: var(--checkmark-svg);
+        -webkit-mask-image: var(--checkmark-svg);
+        mask-position: center;
+        -webkit-mask-position: center;
+        height: calc(100% - var(--cz-checkbox-padding, 0px) * 2 - var(--cz-checkbox-border-width, 0px) * 2);
+        aspect-ratio: 1;
+        transition: 0.2s;
+        content: "";
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+    }
+    .bubble-element.Checkbox input[type=checkbox]:checked:before {
+        background-color: var(--cz-checkbox-bg-on, #39BA76);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:checked:after {
+        display: block;
+        background-color: var(--cz-checkbox-handle-color-on, #FFFFFF);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:indeterminate:before {
+        background-color: var(--cz-checkbox-bg-indeterminate, #AFAFAF);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:indeterminate:after {
+        display: block;
+        mask-image: var(--handle-svg);
+        -webkit-mask-image: var(--handle-svg);
+        background-color: var(--cz-checkbox-handle-color-indeterminate, #FFFFFF);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:disabled:before {
+        cursor: not-allowed;
+        background-color: var(--cz-checkbox-bg-disabled, #D7D7D7);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:disabled:after {
+        cursor: not-allowed;
+        background-color: var(--cz-checkbox-handle-color-disabled, #FFFFFF);
+    }
+</style>
+
+<script>
+    const overrideFlag = "".toLowerCase();
+    const overrideDefaultCheckbox = ["true", "yes", "enabled"].includes(overrideFlag);
+    if (overrideDefaultCheckbox) {
+        const styleEl = document.getElementById("override-default-checkbox");
+        if(styleEl.hasAttribute('media')) {
+            styleEl.removeAttribute('media');
+        }
+    }
+</script>
+<!-- 1687867275859x268526593457520640 -->
+<script src="./deed.so_files/web3.min.js"></script>
+<!-- 1701167433790x572377910433808400 -->
+<script type="module" src="./deed.so_files/index.js"></script>
+<style>
+    *, *::after, *::before {
+        box-sizing: border-box;
+    }
+    
+    /* Because Bubble's default Radio button depends on box-sizing: content-box to looks correct, this is some manual patches */
+    .RadioButtons.radio label::before {
+        width: 18px;
+        height: 18px;
+        margin-top: 0px !important;
+        top: 50% !important;
+		transform: translateY(-50%) !important;
+    }
+
+    .RadioButtons.radio label::after  {
+        width: 10px;
+        height: 10px;
+        margin-top: 0;
+        left: 4px;
+		top: 50%;
+		transform: translateY(-50%) scale(0, 0) !important;
+    }
+    .RadioButtons.radio input[type="radio"]:checked + label::after {
+        transform: translateY(-50%) scale(1, 1) !important;
+    }
+
+</style>
+<style id="override-default-checkbox" media="max-width: 1px">
+    /* This code is generated with the following SCSS code: https://sass-lang.com/playground/#eJylV21zozYQ/mz/CjXX1ElriCQECGfy4c7tTT+kf+A6nRsBwtYEAwNynKST/96VAMd2sM+9iz0e7bIvz75olxDycyySh0VdrovUScq8rL+SGXoU9ZXjJC9OspTJQ1w+OfHCKYsp+uBFnz6GwfXt+L0eHdJbiiLNZSvRWvhs/wYteEc8qyKVWtYrVQgtwcTHz+YzaIJ9E8ShsRN4/CN4UtWIOJcpaP8ems+gdvBNKDt2tijGbryOgenIXK5kod15p4pyEcsc/TtG6FHWWiUid0SuFsUMrVQKRtFPalWVtRaFvh2/njCkimqt/9bPlbzrcf1j7SJkIDbqRRWLGZzrVNYOsG7Ho41K9XKGKK4MtZRqsdRbsiobpVUJSGqZC60eJTDf8jFDRVnswxuVa52rQraPjLR1tiVXol4osIcRr57gF99aeMOBGwQiTS1oEBw5q/LFEVUlRS2K5M2Hs5Hxg9KDj8ohrgayjwy7tDGCbSkB34PTPILDdZ1fXaRCi5laiYW8AeZvT6t8eunN4Ygyled3E2NvgoBdNHeTpdbV7OZms9m4G88t68UNxRgbxQl6VHLzqXy6m0DILkeEosjFdHLp/QH2KqGXKL2b/EUATOQh4mIeYHLPUOh6YQQn4oY4RH7LnxPXJ5wh5kbY4z6I08DnQHLs4cBoYy+wpO+xOXZDRhj2LSMMCPhnEfYjavQJDTkwPGwNgv2IkwhUCInCMAAG5WAKu5iwAIcUGGCSEcuhHuUcOGEUBGRuOBj72EOBi33OjQwhmDMfGB4hVgmCw1bCh8SQe89GG7XU3HOZQQx0wEPGkeeGHgNUEXigEF53mDMTLgm3fEhGxMKtGrOp6ozekzZztPMBJOcQOu0gAR1FQLWIDcXDEDLYxmRpnwHdRm21MTUJN2kBMojAI+nSBrSPIwZx2rx6RoD63OTPZh4MwaMoYJbhe14wBwYESS0DihAaCcaJUbG1pWi/Jb5MusaLc7iFXfvcmP7pjtBscLq4th3dzaRz2vn/tDAknQBEeIIo223hFlqyrmsYS3MzCSe2ranRoFxA18MXbgAijj3/yfAuE2GHsiUJgz2mPX85GasZIQfDvJ1x3XQjZpodFbIze4Y+8IxnUXpCsBapWjczxI6YM6t0uxvsqqhqyHb9/DWVmVjnehjqwR78Lgv9xoFJvYjF1QkLX0HgegoN5g/aOtjrw2CSsoAR2uiTqLaj+0S6smzfQbOuM5HIA7vj9jv6ZRbLrKxlt9NO7rURtGFjylqVqoDcGtbgOhtB6qpcPIN+XiYPhqPLql04o1xmujv2rYTxpSH7TdnTJiXQ9TN0cWHI3SU5/NKVZVO7jq6teLclB0R3GhmqVj1do6bMVXpc1GZyiuyOq4S5ijsutj18VL0VmJqqWb3dXXn4KtQvz9euPCKDTP94dUQMIa71fnW61d0Wx2+T3panIyxQaI/VrI0dKiyvHHg4RebXBrMSzYNjB+A2A7tb38r0bxPnyFqZN+CJ7IPZMzIk0PcPvPQkV6aJkDNQk+4OdYX/FdFBqYEeAVELUDSVTDQUFfxDsx4WtKvfYfda1LWE9yZtEt8d38U1JNG3ggUnU2iG0e69He1ejX7yDvyrYny9WtW+p0ZDN/UsY7Qz1kPbm7bfCdA7F+D7LnrbyrZCJ/rtUPIcYOwg2H4xDMTZ38GihFfnPC83Mj3bjT8Y/49YDLbAX/8DF/tkvA== */
+    .bubble-element.Checkbox label {
+        vertical-align: middle !important;
+    }
+
+    .bubble-element.Checkbox input[type=checkbox] {
+        box-sizing: border-box;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        background: none !important;
+        outline: none;
+        border: none;
+        margin: 0 8px 0 0;
+        vertical-align: middle;
+        padding: 0;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -o-appearance: none;
+        transition: 0.2s;
+        --checkmark-svg: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0.8 12 9.02'%3E%3Cpath d='M10.293 1.08601L4 7.37901L1.707 5.08601C1.5184 4.90385 1.2658 4.80306 1.0036 4.80534C0.741405 4.80761 0.490592 4.91278 0.305184 5.09819C0.119776 5.2836 0.0146072 5.53441 0.0123288 5.79661C0.0100503 6.05881 0.110845 6.31141 0.293003 6.50001L3.293 9.50001C3.48053 9.68748 3.73484 9.7928 4 9.7928C4.26517 9.7928 4.51947 9.68748 4.707 9.50001L11.707 2.50001C11.8892 2.31141 11.99 2.05881 11.9877 1.79661C11.9854 1.53441 11.8802 1.2836 11.6948 1.09819C11.5094 0.912783 11.2586 0.807614 10.9964 0.805336C10.7342 0.803057 10.4816 0.903852 10.293 1.08601Z' fill='black'%3E%3C/path%3E%3C/svg%3E");
+        --handle-svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='28 116 200 24'%3E%3Cpath fill='currentColor' d='M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12Z'%3E%3C/path%3E%3C/svg%3E");
+        --cz-checkbox-border-width: 1px;
+        --cz-checkbox-border-color: #8f8f9d;
+        --cz-checkbox-border-radius: 4px;
+        --cz-checkbox-bg-on: var(--color_primary_default);
+        --cz-checkbox-bg-indeterminate: var(--color_primary_default);
+        --cz-checkbox-bg-disabled: rgba(var(--color_primary_default_rgb), 0.5);
+        --cz-checkbox-handle-color-on: var(--color_primary_contrast_default);
+        --cz-checkbox-padding: 4px;
+        --cz-checkbox-bg-off: var(--color_surface_default);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:before {
+        box-sizing: border-box;
+        cursor: pointer;
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background: var(--cz-checkbox-bg-off, none);
+        border: var(--cz-checkbox-border-width, 0px) solid var(--cz-checkbox-border-color, transparent);
+        border-radius: var(--cz-checkbox-border-radius, 4px);
+        transition: background-color 0.2s;
+    }
+    .bubble-element.Checkbox input[type=checkbox]:after {
+        box-sizing: border-box;
+        cursor: pointer;
+        position: absolute;
+        display: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        mask-image: var(--checkmark-svg);
+        -webkit-mask-image: var(--checkmark-svg);
+        mask-position: center;
+        -webkit-mask-position: center;
+        height: calc(100% - var(--cz-checkbox-padding, 0px) * 2 - var(--cz-checkbox-border-width, 0px) * 2);
+        aspect-ratio: 1;
+        transition: 0.2s;
+        content: "";
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+    }
+    .bubble-element.Checkbox input[type=checkbox]:checked:before {
+        background-color: var(--cz-checkbox-bg-on, #39BA76);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:checked:after {
+        display: block;
+        background-color: var(--cz-checkbox-handle-color-on, #FFFFFF);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:indeterminate:before {
+        background-color: var(--cz-checkbox-bg-indeterminate, #AFAFAF);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:indeterminate:after {
+        display: block;
+        mask-image: var(--handle-svg);
+        -webkit-mask-image: var(--handle-svg);
+        background-color: var(--cz-checkbox-handle-color-indeterminate, #FFFFFF);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:disabled:before {
+        cursor: not-allowed;
+        background-color: var(--cz-checkbox-bg-disabled, #D7D7D7);
+    }
+    .bubble-element.Checkbox input[type=checkbox]:disabled:after {
+        cursor: not-allowed;
+        background-color: var(--cz-checkbox-handle-color-disabled, #FFFFFF);
+    }
+</style>
+
+<script>
+    const overrideFlag = "".toLowerCase();
+    const overrideDefaultCheckbox = ["true", "yes", "enabled"].includes(overrideFlag);
+    if (overrideDefaultCheckbox) {
+        const styleEl = document.getElementById("override-default-checkbox");
+        if(styleEl.hasAttribute('media')) {
+            styleEl.removeAttribute('media');
+        }
+    }
+</script>
+<!-- 1718800673934x330169975399252000 -->
+<script src="./deed.so_files/web3.min.js"></script>
+<script src="./deed.so_files/web3_1_7_4.js.js"></script>
+<!-- 1719155784382x548625844578811900 -->
+<script src="./deed.so_files/web3.min.js"></script>
+<script src="./deed.so_files/web3_1_7_4.js.js"></script>
+
+<!-- 1728067805722x258704927518359550 -->
+<style>
+.confetti {
+    position: absolute; /* Muda para absolute para que o confete saia do elemento */
+    top: 50%; /* Centraliza no elemento */
+    left: 50%; /* Centraliza no elemento */
+    border-radius: 50%;
+    opacity: 0.9;
+    z-index: 9999
+}
+</style>
+<!-- AAC -->
+<style>@keyframes bouncing-loader {    to {        opacity: 0.1;        transform: translate3d(0, -16px, 0);    }}.bouncingLoader {  display: flex;  width: 100%;  height: 100%;}.bouncingLoader > div {    width: 13px;    height: 13px;    margin: 32px 3px;    border-radius: 50%;    animation: bouncing-loader 0.6s infinite alternate;}.bouncingLoader > div:nth-child(2) {    animation-delay: 0.2s;}.bouncingLoader > div:nth-child(3) {    animation-delay: 0.4s;}</style>
+
+<!-- AAC -->
+<script type="text/javascript" src="./deed.so_files/moment-with-locales.min.js"></script><script type="text/javascript" src="./deed.so_files/daterangepicker.min.js"></script><link rel="stylesheet" type="text/css" href="./deed.so_files/daterangepicker.css">
+
+<script type="text/javascript">window._bubble_page_load_data.js_execution_timings.plugin_js_end_execution = Date.now();</script>
+<script async="" src="./deed.so_files/js"></script><style>@keyframes slide-in-one-tap {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.trust-hide-gracefully {
+  opacity: 0;
+}
+
+.trust-wallet-one-tap .hidden {
+    display: none;
+  }
+
+.trust-wallet-one-tap .semibold {
+    font-weight: 500;
+  }
+
+.trust-wallet-one-tap .binance-plex {
+    font-family: 'Binance';
+  }
+
+.trust-wallet-one-tap .rounded-full {
+    border-radius: 50%;
+  }
+
+.trust-wallet-one-tap .flex {
+    display: flex;
+  }
+
+.trust-wallet-one-tap .flex-col {
+    flex-direction: column;
+  }
+
+.trust-wallet-one-tap .items-center {
+    align-items: center;
+  }
+
+.trust-wallet-one-tap .space-between {
+    justify-content: space-between;
+  }
+
+.trust-wallet-one-tap .justify-center {
+    justify-content: center;
+  }
+
+.trust-wallet-one-tap .w-full {
+    width: 100%;
+  }
+
+.trust-wallet-one-tap .box {
+    transition: all 0.5s cubic-bezier(0, 0, 0, 1.43);
+    animation: slide-in-one-tap 0.5s cubic-bezier(0, 0, 0, 1.43);
+    width: 384px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1020;
+  }
+
+.trust-wallet-one-tap .header {
+    gap: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 18px;
+  }
+
+.trust-wallet-one-tap .header .left-items {
+      gap: 15px;
+    }
+
+.trust-wallet-one-tap .header .title {
+      color: #1e2329;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 28px;
+    }
+
+.trust-wallet-one-tap .header .subtitle {
+      color: #474d57;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .header .close {
+      color: #1e2329;
+      cursor: pointer;
+    }
+
+.trust-wallet-one-tap .body {
+    padding: 9px 18px;
+    gap: 10px;
+  }
+
+.trust-wallet-one-tap .body .right-items {
+      gap: 10px;
+      width: 100%;
+    }
+
+.trust-wallet-one-tap .body .right-items .wallet-title {
+        color: #1e2329;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .body .right-items .wallet-subtitle {
+        color: #474d57;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .connect-indicator {
+    gap: 15px;
+    padding: 8px 0;
+  }
+
+.trust-wallet-one-tap .connect-indicator .flow-icon {
+      color: #474d57;
+    }
+
+.trust-wallet-one-tap .loading-color {
+    color: #fff;
+  }
+
+.trust-wallet-one-tap .button {
+    border-radius: 50px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    background-color: rgb(5, 0, 255);
+    border-color: rgb(229, 231, 235);
+    cursor: pointer;
+    text-align: center;
+    height: 45px;
+  }
+
+.trust-wallet-one-tap .button .button-text {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .footer {
+    margin: 20px 30px;
+  }
+
+.trust-wallet-one-tap .check-icon {
+    color: #fff;
+  }
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Regular.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Medium.otf) format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-SemiBold.otf) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL2FwcC9zcmMvb25lVGFwL3N0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0lBQ0UsMkJBQTJCO0VBQzdCO0VBQ0E7SUFDRSwwQkFBMEI7RUFDNUI7QUFDRjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFHRTtJQUNFLGFBQWE7RUFDZjs7QUFFQTtJQUNFLGdCQUFnQjtFQUNsQjs7QUFFQTtJQUNFLHNCQUFzQjtFQUN4Qjs7QUFFQTtJQUNFLGtCQUFrQjtFQUNwQjs7QUFFQTtJQUNFLGFBQWE7RUFDZjs7QUFFQTtJQUNFLHNCQUFzQjtFQUN4Qjs7QUFFQTtJQUNFLG1CQUFtQjtFQUNyQjs7QUFFQTtJQUNFLDhCQUE4QjtFQUNoQzs7QUFFQTtJQUNFLHVCQUF1QjtFQUN6Qjs7QUFFQTtJQUNFLFdBQVc7RUFDYjs7QUFFQTtJQUNFLGdEQUFnRDtJQUNoRCw0REFBNEQ7SUFDNUQsWUFBWTtJQUNaLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsK0NBQStDO0lBQy9DLGVBQWU7SUFDZixXQUFXO0lBQ1gsWUFBWTtJQUNaLGFBQWE7RUFDZjs7QUFFQTtJQUNFLFNBQVM7SUFDVCxnQ0FBZ0M7SUFDaEMsa0JBQWtCO0VBdUJwQjs7QUFyQkU7TUFDRSxTQUFTO0lBQ1g7O0FBRUE7TUFDRSxjQUFjO01BQ2QsZUFBZTtNQUNmLGdCQUFnQjtNQUNoQixpQkFBaUI7SUFDbkI7O0FBRUE7TUFDRSxjQUFjO01BQ2QsZUFBZTtNQUNmLGlCQUFpQjtJQUNuQjs7QUFFQTtNQUNFLGNBQWM7TUFDZCxlQUFlO0lBQ2pCOztBQUdGO0lBQ0UsaUJBQWlCO0lBQ2pCLFNBQVM7RUFtQlg7O0FBakJFO01BQ0UsU0FBUztNQUNULFdBQVc7SUFjYjs7QUFaRTtRQUNFLGNBQWM7UUFDZCxlQUFlO1FBQ2YsZ0JBQWdCO1FBQ2hCLGlCQUFpQjtNQUNuQjs7QUFFQTtRQUNFLGNBQWM7UUFDZCxlQUFlO1FBQ2YsaUJBQWlCO01BQ25COztBQUlKO0lBQ0UsU0FBUztJQUNULGNBQWM7RUFLaEI7O0FBSEU7TUFDRSxjQUFjO0lBQ2hCOztBQUdGO0lBQ0UsV0FBVztFQUNiOztBQUVBO0lBQ0UsbUJBQW1CO0lBQ25CLDhCQUE4QjtJQUM5QixtQkFBbUI7SUFDbkIsZ0NBQWdDO0lBQ2hDLGdDQUFnQztJQUNoQyxlQUFlO0lBQ2Ysa0JBQWtCO0lBQ2xCLFlBQVk7RUFRZDs7QUFORTtNQUNFLFdBQVc7TUFDWCxlQUFlO01BQ2YsZ0JBQWdCO01BQ2hCLGlCQUFpQjtJQUNuQjs7QUFHRjtJQUNFLGlCQUFpQjtFQUNuQjs7QUFFQTtJQUNFLFdBQVc7RUFDYjs7QUFHRjtFQUNFLHNCQUFzQjtFQUN0QiwrREFBMEU7RUFDMUUsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHNCQUFzQjtFQUN0QiwrREFBeUU7RUFDekUsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHNCQUFzQjtFQUN0QiwrREFBMkU7RUFDM0UsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQiIsInNvdXJjZXNDb250ZW50IjpbIkBrZXlmcmFtZXMgc2xpZGUtaW4tb25lLXRhcCB7XG4gIGZyb20ge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSg4MHB4KTtcbiAgfVxuICB0byB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCk7XG4gIH1cbn1cblxuLnRydXN0LWhpZGUtZ3JhY2VmdWxseSB7XG4gIG9wYWNpdHk6IDA7XG59XG5cbi50cnVzdC13YWxsZXQtb25lLXRhcCB7XG4gIC5oaWRkZW4ge1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cblxuICAuc2VtaWJvbGQge1xuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIH1cblxuICAuYmluYW5jZS1wbGV4IHtcbiAgICBmb250LWZhbWlseTogJ0JpbmFuY2UnO1xuICB9XG5cbiAgLnJvdW5kZWQtZnVsbCB7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICB9XG5cbiAgLmZsZXgge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gIH1cblxuICAuZmxleC1jb2wge1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIH1cblxuICAuaXRlbXMtY2VudGVyIHtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB9XG5cbiAgLnNwYWNlLWJldHdlZW4ge1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgfVxuXG4gIC5qdXN0aWZ5LWNlbnRlciB7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIH1cblxuICAudy1mdWxsIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgfVxuXG4gIC5ib3gge1xuICAgIHRyYW5zaXRpb246IGFsbCAwLjVzIGN1YmljLWJlemllcigwLCAwLCAwLCAxLjQzKTtcbiAgICBhbmltYXRpb246IHNsaWRlLWluLW9uZS10YXAgMC41cyBjdWJpYy1iZXppZXIoMCwgMCwgMCwgMS40Myk7XG4gICAgd2lkdGg6IDM4NHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDE1cHg7XG4gICAgYmFja2dyb3VuZDogI2ZmZjtcbiAgICBib3gtc2hhZG93OiAwcHggMnB4IDRweCAwcHggcmdiYSgwLCAwLCAwLCAwLjI1KTtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgcmlnaHQ6IDMwcHg7XG4gICAgYm90dG9tOiAzMHB4O1xuICAgIHotaW5kZXg6IDEwMjA7XG4gIH1cblxuICAuaGVhZGVyIHtcbiAgICBnYXA6IDE1cHg7XG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlNmU2ZTY7XG4gICAgcGFkZGluZzogMTBweCAxOHB4O1xuXG4gICAgLmxlZnQtaXRlbXMge1xuICAgICAgZ2FwOiAxNXB4O1xuICAgIH1cblxuICAgIC50aXRsZSB7XG4gICAgICBjb2xvcjogIzFlMjMyOTtcbiAgICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgICBsaW5lLWhlaWdodDogMjhweDtcbiAgICB9XG5cbiAgICAuc3VidGl0bGUge1xuICAgICAgY29sb3I6ICM0NzRkNTc7XG4gICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICBsaW5lLWhlaWdodDogMjBweDtcbiAgICB9XG5cbiAgICAuY2xvc2Uge1xuICAgICAgY29sb3I6ICMxZTIzMjk7XG4gICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgfVxuICB9XG5cbiAgLmJvZHkge1xuICAgIHBhZGRpbmc6IDlweCAxOHB4O1xuICAgIGdhcDogMTBweDtcblxuICAgIC5yaWdodC1pdGVtcyB7XG4gICAgICBnYXA6IDEwcHg7XG4gICAgICB3aWR0aDogMTAwJTtcblxuICAgICAgLndhbGxldC10aXRsZSB7XG4gICAgICAgIGNvbG9yOiAjMWUyMzI5O1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiAyMHB4O1xuICAgICAgfVxuXG4gICAgICAud2FsbGV0LXN1YnRpdGxlIHtcbiAgICAgICAgY29sb3I6ICM0NzRkNTc7XG4gICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgICB9XG4gICAgfVxuICB9XG5cbiAgLmNvbm5lY3QtaW5kaWNhdG9yIHtcbiAgICBnYXA6IDE1cHg7XG4gICAgcGFkZGluZzogOHB4IDA7XG5cbiAgICAuZmxvdy1pY29uIHtcbiAgICAgIGNvbG9yOiAjNDc0ZDU3O1xuICAgIH1cbiAgfVxuXG4gIC5sb2FkaW5nLWNvbG9yIHtcbiAgICBjb2xvcjogI2ZmZjtcbiAgfVxuXG4gIC5idXR0b24ge1xuICAgIGJvcmRlci1yYWRpdXM6IDUwcHg7XG4gICAgb3V0bGluZTogMnB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICAgIG91dGxpbmUtb2Zmc2V0OiAycHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDUsIDAsIDI1NSk7XG4gICAgYm9yZGVyLWNvbG9yOiByZ2IoMjI5LCAyMzEsIDIzNSk7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBoZWlnaHQ6IDQ1cHg7XG5cbiAgICAuYnV0dG9uLXRleHQge1xuICAgICAgY29sb3I6ICNmZmY7XG4gICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICBmb250LXdlaWdodDogNjAwO1xuICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgfVxuICB9XG5cbiAgLmZvb3RlciB7XG4gICAgbWFyZ2luOiAyMHB4IDMwcHg7XG4gIH1cblxuICAuY2hlY2staWNvbiB7XG4gICAgY29sb3I6ICNmZmY7XG4gIH1cbn1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnQmluYW5jZSc7XG4gIHNyYzogdXJsKCcuL2ZvbnRzL2JpbmFuY2VQbGV4L0JpbmFuY2VQbGV4LVJlZ3VsYXIub3RmJykgZm9ybWF0KCdvcGVudHlwZScpO1xuICBmb250LXdlaWdodDogNDAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ0JpbmFuY2UnO1xuICBzcmM6IHVybCgnLi9mb250cy9iaW5hbmNlUGxleC9CaW5hbmNlUGxleC1NZWRpdW0ub3RmJykgZm9ybWF0KCdvcGVudHlwZScpO1xuICBmb250LXdlaWdodDogNTAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ0JpbmFuY2UnO1xuICBzcmM6IHVybCgnLi9mb250cy9iaW5hbmNlUGxleC9CaW5hbmNlUGxleC1TZW1pQm9sZC5vdGYnKSBmb3JtYXQoJ29wZW50eXBlJyk7XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style id="progressier-theme-settings">
+	 :root{
+		 --progressierBg: #ffffff;
+		 --progressierElement: #fafafa;
+		 --progressierTxt: #142a37;
+		 --progressierBorderColor:#eaeaea;
+		 --progressierHover:#f6f6f6;
+		 --progressierBackdrop:rgba(255, 255, 255, 0.90);
+		 --progressierBoxShadow: 0 2px 8px rgba(15,41,14,.08), 0 3px 35px rgba(7,21,41,.20);
+		 --progressierIconShadow:0 2px 9px 0 rgba(82, 79, 79, 0.15);
+		 --progressierFont:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+		 --progressierLetterSpacing:0.1px;
+		 --progressierTextFontWeight:400;
+		 --progressierHeadingFontWeight:500;
+		 --progressierBtnFontWeight:400;
+	}
+		@media (prefers-color-scheme: dark) {
+			
+			:root {
+			--progressierBg: #202124;
+			--progressierElement: #29292e;
+			--progressierTxt: #bdc1c6;
+			--progressierBorderColor: #313137;
+			--progressierHover: #191a1e;
+			--progressierBackdrop:rgba(0, 0, 0, 0.9);
+			--progressierIconShadow: none;
+	 	}
+		}</style><link rel="manifest" href="https://progressier.app/wufvrmJumYKjWcsjfUeW/progressier.json"><meta content="true" name="x5-fullscreen"><meta content="app" name="x5-page-mode"><meta content="application" name="browsermode"><meta content="yes" name="full-screen"><meta content="https://deed-pwa-lite.bubbleapps.io/testnet-dapp" property="al:web:url"><meta content="yes" name="mobile-web-app-capable"><meta content="#ffffff" name="theme-color"><meta content="Deed" name="application-name"><meta content="https://deed-pwa-lite.bubbleapps.io/testnet-dapp" name="msapplication-starturl"><meta content="#ffffff" name="msapplication-navbutton-color"><meta content="https://pwa.xyz/gbBgEfe69706DRgN1lYN%2FLKWkbmlrHGCHInN.png?alt=media&amp;token=548e6c46-157b-4927-88a9-1e225e9c832e" name="msapplication-TileImage"><meta content="#ffffff" name="msapplication-TileColor"><meta content="yes" name="apple-touch-fullscreen"><meta content="Deed" name="apple-mobile-web-app-title"></head>
+<body style="height: 100%;"><script type="text/javascript">
+window.addEventListener('DOMContentLoaded', function () {
+  if (window.appquery == null) {
+    const css = document.createElement('style');
+css.type='text/css';
+css.appendChild(document.createTextNode(".warning-message-failure {padding: 30px; line-height: 1.5; white-space: pre; z-index: 1000000; position: fixed; width: 100%; height: 100%; background: white;}"));
+document.getElementsByTagName("head")[0].appendChild(css);
+const newDiv = document.createElement("div");
+newDiv.className = "warning-message-failure";
+newDiv.innerHTML = "Your browser was unable to load some necessary resources, contact your IT network administrator and ask them to allow access to <br><br>     d3dqmih97rcqmh.cloudfront.net <br>     3db192e1babc29d34848745d03bcadc0.cdn.bubble.io/ <br>     d1muf25xaso8hp.cloudfront.net";
+document.body.appendChild(newDiv);
+    httpRequest = new XMLHttpRequest();
+httpRequest.open('POST', '/user/m', true);
+httpRequest.setRequestHeader('Content-Type', 'application/json');
+httpRequest.send(JSON.stringify({measures: {page_load_error: 1, url: document.location.href, errors: window.load_error_log}}));
+  };
+});
+</script><script type="text/javascript">window.addEventListener('DOMContentLoaded', function () {if (window.appquery && window.app == null) {const css = document.createElement('style');
+css.type='text/css';
+css.appendChild(document.createTextNode(".warning-message-failure {padding: 30px; line-height: 1.5; white-space: pre; z-index: 1000000; position: fixed; width: 100%; height: 100%; background: white;}"));
+document.getElementsByTagName("head")[0].appendChild(css);
+const newDiv = document.createElement("div");
+newDiv.className = "warning-message-failure";
+newDiv.innerHTML = "Your browser was unable to load the application data. We've been notified of the issue. Please try again in a few moments and make sure not to use ad-blockers.";
+document.body.appendChild(newDiv);}});</script>
+<img style="display: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+
+<div style="overflow:hidden !important;filter: none !important;transform: scale(1) !important;box-shadow:0 2px 8px rgba(15,41,14,0.08), 0 3px 35px rgba(7,21,41,0.20) !important;visibility:visible !important;opacity:1 !important;position:fixed !important;left:20px !important;bottom:20px !important;width:180px !important;height:35px !important;text-align:center !important;z-index:2147483647 !important;border-radius: 20px !important;font-size:14px !important;background:#fff !important;color:#363131 !important;display:flex!important;align-items:center !important;justify-content:center !important;flex-direction:row !important;text-decoration:none !important;outline:0px !important;border:0px !important;"><div style="cursor:pointer;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif !important;height:100% !important;width:100% !important;visibility:visible !important;filter: none !important;opacity:1 !important;color:#363131 !important;display:flex!important;align-items:center !important;justify-content:center !important;flex-direction:row !important;text-decoration:none !important;outline:0px !important;border:0px !important;font-size:11px !important;background:#fff !important;letter-spacing: 0px !important;transform: scale(1) !important;font-weight:400 !important;">Powered by <img alt="Progressier logo" style="object-fit: contain !important;color:transparent !important;width: 90px !important;visibility:visible !important;opacity:1 !important;display:flex !important;flex:none !important;transform: scale(1) !important;filter: none !important;margin-left: 0px !important;" src="./deed.so_files/progressier-full-logo.svg"></div></div><svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg><div id="home_page" class="bubble-element Page cmaTaCy bubble-r-container flex column main-page"><div class="bubble-element Group cmiaHe bubble-r-container flex row"><div class="bubble-element Group cmiaHg bubble-r-container flex row"><div class="bubble-element Image cmiaHk" style="max-height: unset;"><img src="./deed.so_files/D (1).png"></div><div class="bubble-element Text cmiaHl bubble-r-vertical-center"><div>(testnet)</div></div></div><div class="bubble-element Group cmiaHm bubble-r-container flex row" style="gap: 0px 60px;"><div class="bubble-element Text cmiaNaU clickable-element">Team</div><div class="bubble-element Text cmiaWaI clickable-element">Whitepaper</div><div class="bubble-element Group cmoaAi bubble-r-container flex row" style="background-color: rgb(255, 255, 255);"><div class="clickable-element bubble-element Image cmoaAu"><img src="./deed.so_files/icons8-x-50 (1).png"></div><button class="clickable-element bubble-element Icon cmoaaC" tabindex="" style="display: flex;"><svg viewBox="0 0 32 32" data-icon-set="fa" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/fontawesome-4.7.0.svg#fa-github"></use></svg></button></div></div></div><div class="bubble-element 1488796042609x768734193128308700-AAP" style="align-self: flex-start; min-width: 10px; max-width: 10px; order: 2; min-height: 10px; max-height: 10px; height: 10px; flex-grow: 1; width: 10px; margin: 0px; z-index: 42;"></div><div class="bubble-element HTML cmeiaK"><script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var isStandalone = (window.matchMedia('(display-mode: standalone)').matches);
+    // Bubble-specific function to set custom state
+    bubble_fn_isStandalone(isStandalone);
+  });
+
+  // Function to set the custom state in Bubble
+  function bubble_fn_isStandalone(isStandalone) {
+    // Assuming 'index' is the name of the index page element or relevant element
+    var indexElement = document.getElementById('index');
+    if (indexElement) {
+      // Setting custom state 'isStandalone'
+      indexElement.setAttribute('data-isStandalone', isStandalone ? 'yes' : 'no');
+    }
+  }
+</script>
+</div><div class="bubble-element 1577306213704x142865328118956030-AAG" style="align-self: flex-start; min-width: 2px; max-width: 2px; order: 11; min-height: 2px; max-height: 2px; height: 2px; flex-grow: 1; width: 2px; margin: 0px; z-index: 37;"></div><div class="bubble-element 1636004654821x662298559668289500-AAC" style="align-self: flex-start; min-width: 12px; max-width: 12px; order: 12; flex-grow: 0; flex-shrink: 0; width: 12px; margin: 0px; z-index: 20; height: 12px;"></div><div class="bubble-element HTML cmkbm"><script type="module">
+  import bs58 from 'https://cdn.skypack.dev/bs58';
+
+  // Attach bs58 to the window object
+  window.bs58 = bs58;
+  console.log("✅ [HTML ELEMENT] bs58 loaded and attached to window");
+</script>
+</div><div class="bubble-element Group cmiaGaQ bubble-r-container flex row" style="max-width: unset; max-height: unset;"><div class="bubble-element 1488796042609x768734193128308700-AAP" style="align-self: flex-start; min-width: 1px; max-width: 1px; order: 1; min-height: 3px; max-height: 3px; width: 1px; flex-grow: 1; height: 3px; margin: 0px; z-index: 3;"></div><div class="bubble-element Group cmiaGaS bubble-r-container flex column" style="gap: unset; max-height: unset;"><div class="bubble-element Text cmiaGaW">Onchain Economies for <u>"Web2 Internet"</u></div><div class="bubble-element Text cmiaGaX"><div>🎯 Tokenize socials, apps, or websites ➜
+🎁 Reward community for growth ➜<br>📈 Trade tokens of growing internet assets<br><br>👇 Launch a token for any online asset</div></div><div class="bubble-element Group cmoaDj bubble-r-container flex row" style="max-height: unset;"><div class="bubble-element Image cmoaEaI" title="Youtube channel"><img src="./deed.so_files/icons8-youtube-100.png"></div><div class="bubble-element Image cmoaEaH" title="Twitter handle"><img src="./deed.so_files/x-social-media-black-icon.png"></div><div class="bubble-element Image cmoaDo" title="Instagram handle"><img src="./deed.so_files/icons8-instagram-50 (1).png"></div><div class="bubble-element Image cmoaDp" title="Tik-tok handle"><img src="./deed.so_files/icons8-tiktok-50.png"></div><div class="bubble-element Image cmoaDq" title="Twitch handle"><img src="./deed.so_files/icons8-twitch-50 (1).png"></div><div class="bubble-element Image cmoaDu" title="Patreon account"><img src="./deed.so_files/icons8-patreon-100.png"></div><div class="bubble-element Image cmoaDv" title="Shopify store"><img src="./deed.so_files/icons8-shopify-100.png"></div><div class="bubble-element Image cmoaDw" title="Amazon seller"><img src="./deed.so_files/icons8-amazon-100.png"></div><div class="bubble-element Image cmoaEaA" title="wordpress"><img src="./deed.so_files/icons8-wordpress-100.png"></div><div class="bubble-element Image cmoaEaB" title="iOs apps"><img src="./deed.so_files/icons8-app-store-100.png"></div><div class="bubble-element Image cmoaEaC" title="Play store apps"><img src="./deed.so_files/icons8-google-play-100.png"></div><div class="bubble-element Image cmoaEaG" title="Roblox games"><img src="./deed.so_files/icons8-roblox-100.png"></div><div class="bubble-element Image cmoaEaM" title="Roblox games"><img src="./deed.so_files/icons8-ebay-100.png"></div><div class="bubble-element Image cmoaEaN" title="Roblox games"><img src="./deed.so_files/icons8-www-100.png"></div></div><div class="bubble-element HTML cmoaCa">
+
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <style>
+    .button-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .progressier-install-button {
+      width: 320px !important; /* Fixed width for desktop */
+      min-width: 320px !important; /* Prevent shrinking on desktop */
+      height: 40px;
+      background-color: transparent;
+      color: #000000;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      border: 2px solid #1ABF85; /* Green outline */
+      border-radius: 20px;
+      cursor: pointer;
+      display: flex; /* Use flex for internal alignment */
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      margin: 0; /* Remove auto margin since wrapper centers it */
+    }
+
+    .progressier-install-button:hover {
+      background-color: #1ABF851A; /* Light green tint on hover */
+      border-color: #17A673;
+    }
+
+    @media (max-width: 768px) {
+      .progressier-install-button {
+        width: 300px !important; /* Slightly smaller for mobile to fit */
+        min-width: 300px !important; /* Prevent shrinking on mobile */
+        font-size: 13px;
+      }
+    }
+  </style>
+
+
+  <div class="button-wrapper">
+    <button class="progressier-install-button captured initialized" data-icons="false" data-install="Download App" data-installed="Download App" data-hide-standalone="false"><span style="display:flex;justify-content:center;align-items:center;height:100%;"><span style="padding:0px 15px;">Download App</span></span></button>
+  </div>
+
+  <!-- Include the Progressier script -->
+  <script src="./deed.so_files/script.js"></script>
+
+  <!-- Ensure the script initializes if required -->
+  <script>
+    if (window.Progressier) {
+      window.Progressier.init();
+    }
+  </script>
+
+</div><div class="bubble-element Group cmoaZr bubble-r-container flex row"><div class="bubble-element Text cmoaZx"><div align="center"><font size="2">Markets</font><br></div><div align="center">11<br></div>
+<br></div><div class="bubble-element Text cmoaZw"><div align="center"><font size="2">Trade Volume</font><br></div><div align="center">$2,769,539.78<br></div>
+<br><br></div></div></div><div class="bubble-element Group cmkraY bubble-r-container flex column" style="background-color: rgb(255, 255, 255);"><div class="bubble-element Group cmkre bubble-r-container flex column"><div class="bubble-element HTML cmkrj"><iframe src="./deed.so_files/1045290848.html" width="280" height="624" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="deed demo app video vf 15-Oct-23"></iframe></div></div></div></div><div class="bubble-element Group cmnhaV bubble-r-container flex column" style="background-color: rgb(255, 255, 255);"></div><div class="bubble-element Group cmihaF bubble-r-container flex row" style="display: none;"><div class="bubble-element Group cmiiaG bubble-r-container flex column" style="max-height: unset; background-color: rgb(255, 255, 255);"><div class="bubble-element HTML cmniaR" style="display: none;"><iframe src="javascript:window[&quot;contents&quot;]" style="width: 100%; height: 100%;" src="./deed.so_files/saved_resource.html"></iframe></div><div class="bubble-element HTML cmniaX">
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards Notification</title>
+    <link rel="stylesheet" href="./deed.so_files/css2">
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        .rewards-card {
+            display: flex;
+            align-items: center;
+            background-color: #f5f5f5;
+            border-radius: 12px;
+            padding: 16px 24px;
+            margin: 0 auto 20px;
+            max-width: 600px;
+            box-shadow: 0 4px 12px rgba(0, 204, 102, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .rewards-card:hover {
+            transform: translateY(-3px);
+        }
+        .rewards-text {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #00b359;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .timer-icon {
+            font-size: 1.4rem;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        @media (max-width: 768px) {
+            .rewards-card {
+                padding: 12px 16px;
+                margin: 0 15px 20px;
+            }
+            .rewards-text {
+                font-size: 1rem;
+                gap: 6px;
+            }
+            .timer-icon {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+
+
+    <div class="rewards-card">
+        <div class="rewards-text">
+            <span class="timer-icon">⏳</span>
+            $579,600 in rewards unclaimed before TGE!
+        </div>
+    </div>
+
+</div><div class="bubble-element HTML cmnow"><div class="deeds-feed-section">
+  <h2>Live Deeds Feed</h2>
+  <div class="deeds-carousel">
+    <div class="deeds-ticker">
+      <!-- Group 1: Cards 1-3 -->
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-1.png" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x1234…5678</p>
+          <p class="deed-action">Posted on X</p>
+          <p class="earnings">Earned: <span class="earnings-tag">750 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-2.webp" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x2345…6789</p>
+          <p class="deed-action">Hosted an AMA (telegram)</p>
+          <p class="earnings">Earned: <span class="earnings-tag">400 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-3.jpg" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">G5tsgc…BJgL</p>
+          <p class="deed-action">Earned 15% on $DEED sale invite</p>
+          <p class="earnings">Earned: <span class="earnings-tag">4.0 SOL</span></p>
+        </div>
+      </div>
+      <!-- Group 2: Cards 4-6 -->
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-4.avif" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x3456…7890</p>
+          <p class="deed-action">Created a reel (insta)</p>
+          <p class="earnings">Earned: <span class="earnings-tag">1500 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-5.png" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x4567…8901</p>
+          <p class="deed-action">Posted on X</p>
+          <p class="earnings">Earned: <span class="earnings-tag">600 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-1.png" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x780B…a120</p>
+          <p class="deed-action">Earned 15% on $DEED sale invite</p>
+          <p class="earnings">Earned: <span class="earnings-tag">0.3 ETH</span></p>
+        </div>
+      </div>
+      <!-- Group 3: Cards 7-9 -->
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-2.webp" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x5678…9012</p>
+          <p class="deed-action">Hosted an AMA (telegram)</p>
+          <p class="earnings">Earned: <span class="earnings-tag">600 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-3.jpg" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x7AE3…e0B9</p>
+          <p class="deed-action">Created a reel (insta)</p>
+          <p class="earnings">Earned: <span class="earnings-tag">1000 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-4.avif" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">6BTZmA…mPJv</p>
+          <p class="deed-action">Earned 15% on $DEED sale invite</p>
+          <p class="earnings">Earned: <span class="earnings-tag">6.0 SOL</span></p>
+        </div>
+      </div>
+      <!-- Group 4: Cards 10-12 -->
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-5.png" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0xB686…b1E0</p>
+          <p class="deed-action">Posted on X</p>
+          <p class="earnings">Earned: <span class="earnings-tag">800 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-1.png" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x1234…5678</p>
+          <p class="deed-action">Hosted an AMA (telegram)</p>
+          <p class="earnings">Earned: <span class="earnings-tag">250 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-2.webp" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x2345…6789</p>
+          <p class="deed-action">Earned 15% on $DEED sale invite</p>
+          <p class="earnings">Earned: <span class="earnings-tag">0.4 ETH</span></p>
+        </div>
+      </div>
+      <!-- Group 5: Cards 13-15 -->
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-3.jpg" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">A1b2c3…s9t0</p>
+          <p class="deed-action">Created a reel (insta)</p>
+          <p class="earnings">Earned: <span class="earnings-tag">500 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-4.avif" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x3456…7890</p>
+          <p class="deed-action">Posted on X</p>
+          <p class="earnings">Earned: <span class="earnings-tag">500 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-5.png" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">3iBoV2…SeSC</p>
+          <p class="deed-action">Earned 15% on $DEED sale invite</p>
+          <p class="earnings">Earned: <span class="earnings-tag">8.0 SOL</span></p>
+        </div>
+      </div>
+      <!-- Group 6: Cards 16-18 -->
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-1.png" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x4567…8901</p>
+          <p class="deed-action">Hosted an AMA (telegram)</p>
+          <p class="earnings">Earned: <span class="earnings-tag">1000 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-2.webp" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">B2c3d4…t0u1</p>
+          <p class="deed-action">Created a reel (insta)</p>
+          <p class="earnings">Earned: <span class="earnings-tag">2000 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-3.jpg" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">0x5678…9012</p>
+          <p class="deed-action">Earned 15% on $DEED sale invite</p>
+          <p class="earnings">Earned: <span class="earnings-tag">0.2 ETH</span></p>
+        </div>
+      </div>
+      <!-- Extra Cards: 19-20 -->
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-4.avif" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">C3d4e5…u1v2</p>
+          <p class="deed-action">Posted on X</p>
+          <p class="earnings">Earned: <span class="earnings-tag">1000 $DEED</span></p>
+        </div>
+      </div>
+      <div class="deed-card">
+        <img src="./deed.so_files/profile-5.png" alt="Profile Pic" class="profile-pic">
+        <div class="deed-info">
+          <p class="wallet">D4e5f6…v2w3</p>
+          <p class="deed-action">Hosted an AMA (telegram)</p>
+          <p class="earnings">Earned: <span class="earnings-tag">800 $DEED</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Load DM Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.deeds-feed-section {
+  background: #FFFFFF;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.deeds-feed-section h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.deeds-carousel {
+  overflow: hidden;
+  height: 420px;
+  position: relative;
+}
+
+.deeds-ticker {
+  display: flex;
+  flex-direction: column;
+  min-height: 2520px;
+  animation: ticker 40s linear infinite;
+  will-change: transform;
+  padding-top: 12px;
+}
+
+.deeds-ticker.paused {
+  animation-play-state: paused;
+}
+
+.deeds-ticker:hover {
+  animation-play-state: paused;
+}
+
+.deed-card {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-left: 4px solid #00FF99;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 8px 0;
+  min-height: 100px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.deed-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: none;
+  padding: 0;
+  margin-right: 15px;
+}
+
+.deed-info {
+  text-align: left;
+  flex: 1;
+}
+
+.wallet {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #666666;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.deed-action {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin: 4px 0;
+}
+
+.earnings {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  margin: 0;
+}
+
+.earnings-tag {
+  background-color: #00FF99;
+  color: #000000;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .deeds-feed-section {
+    padding: 20px 10px;
+  }
+
+  .deeds-feed-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .deeds-carousel {
+    height: 400px;
+  }
+
+  .deed-card {
+    padding: 12px;
+    margin: 6px 0;
+    min-height: 80px;
+  }
+
+  .profile-pic {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+
+  .wallet {
+    font-size: 12px;
+  }
+
+  .deed-action {
+    font-size: 14px;
+  }
+
+  .earnings {
+    font-size: 12px;
+  }
+
+  .earnings-tag {
+    padding: 1px 4px;
+    font-size: 12px;
+  }
+}
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const ticker = document.querySelector('.deeds-ticker');
+    const cards = document.querySelectorAll('.deed-card');
+
+    // Ensure seamless loop
+    if (ticker) {
+      ticker.addEventListener('animationiteration', () => {
+        if (!ticker.classList.contains('paused')) {
+          ticker.style.animation = 'none';
+          ticker.offsetHeight; /* Trigger reflow */
+          ticker.style.animation = 'ticker 40s linear infinite';
+        }
+      });
+    }
+
+    // Toggle animation on card click
+    cards.forEach(card => {
+      card.addEventListener('click', () => {
+        ticker.classList.toggle('paused');
+      });
+    });
+  });
+</script></div></div><div class="bubble-element Group cmihaK bubble-r-container flex column" style="max-height: unset;"><div class="bubble-element Group cmihaY bubble-r-container flex column"><div class="bubble-element HTML cmisz" style="max-width: unset; max-height: unset;"><iframe src="javascript:window[&quot;contents&quot;]" style="width: 100%; height: 100%;" src="./deed.so_files/saved_resource(1).html"></iframe></div></div></div></div><div class="bubble-element Group cmkhz bubble-r-container flex column" style="max-width: unset; max-height: unset;"><div class="bubble-element 1488796042609x768734193128308700-AAP" style="align-self: flex-start; min-width: 1px; max-width: 1px; order: 1; min-height: 3px; max-height: 3px; height: 3px; flex-grow: 1; width: 1px; margin: 0px; z-index: 3;"></div><div class="bubble-element Group cmkiaG bubble-r-container flex column"><div class="bubble-element HTML cmklu"><!-- DM Sans font import -->
+<link href="./deed.so_files/css2(1)" rel="stylesheet">
+
+<style>
+  body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    background: #fff;
+    padding: 0;
+  }
+
+  .section-who-deed {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .section-who-deed h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 90px;
+    color: #000;
+  }
+
+  .user-groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .user-card {
+    flex: 1 1 calc(33.333% - 20px);
+    background: #f6f6f6;
+    border-radius: 16px;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    transition: box-shadow 0.2s ease;
+    text-align: left;
+  }
+
+  .user-card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  }
+
+  .emoji {
+    font-size: 28px;
+    line-height: 1;
+    margin-top: 4px;
+  }
+
+  .user-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    color: #000;
+  }
+
+  .user-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 992px) {
+    .user-card {
+      flex: 1 1 calc(50% - 20px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .user-card {
+      flex: 1 1 100%;
+    }
+
+    .section-who-deed h2 {
+      font-size: 28px;
+    }
+  }
+</style>
+
+<section class="section-who-deed">
+  <h2>Who Can Use Deed?</h2>
+  <div class="user-groups">
+    <div class="user-card">
+      <div class="emoji">👑</div>
+      <div>
+        <h3>Asset Owners</h3>
+        <p>Tokenize internet assets and grow them onchain by rewarding community deeds.</p>
+      </div>
+    </div>
+
+    <div class="user-card">
+      <div class="emoji">👥</div>
+      <div>
+        <h3>Communities</h3>
+        <p>Create content, boost metrics, invite users, grow sales and earn rewards onchain.</p>
+      </div>
+    </div>
+
+    <div class="user-card">
+      <div class="emoji">📈</div>
+      <div>
+        <h3>Traders</h3>
+        <p>Trade tokens of the fastest-growing internet asset economies.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</div></div><div class="bubble-element Group cmkkm bubble-r-container flex column"><div class="bubble-element HTML cmkmaA">
+
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="./deed.so_files/css2(1)" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'DM Sans', sans-serif;
+      margin: 0;
+      background: #fff;
+      padding: 0;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 40px;
+      color: #000;
+      text-align: center;
+    }
+
+    .category {
+      margin-top: 50px;
+    }
+
+    .category h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 24px;
+      color: #111;
+    }
+
+    .card-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .usecase-card {
+      flex: 1 1 calc(33.333% - 20px);
+      background: #f6f6f6;
+      border-radius: 16px;
+      padding: 24px;
+      box-sizing: border-box;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      transition: box-shadow 0.2s ease;
+    }
+
+    .usecase-card:hover {
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    }
+
+    .emoji {
+      font-size: 28px;
+      line-height: 1;
+      margin-top: 4px;
+    }
+
+    .usecase-text h4 {
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0 0 4px;
+      color: #000;
+    }
+
+    .usecase-text p {
+      font-size: 14px;
+      color: #555;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 992px) {
+      .usecase-card {
+        flex: 1 1 calc(50% - 20px);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .usecase-card {
+        flex: 1 1 100%;
+      }
+
+      .section h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+
+
+  <section class="section">
+    <h2>What can Deed be used for?</h2>
+
+    <!-- Web2 Use Cases -->
+    <div class="category">
+      <h3>🌐 Web2 Token Economies</h3>
+      <div class="card-row">
+
+        <div class="usecase-card">
+          <div class="emoji">🖼️</div>
+          <div class="usecase-text">
+            <h4>Socials (YT, IG, Tiktok)</h4>
+            <p>Tokenize social assets that trade based on content growth, views, and engagement &amp; reward followers for growing content, views &amp; engagement.</p>
+          </div>
+        </div>
+
+        <div class="usecase-card">
+          <div class="emoji">📡</div>
+          <div class="usecase-text">
+            <h4>Live streaming (Twitch)</h4>
+            <p>Launch tokens for trading based on live competitions between streamers &amp; fans.</p>
+          </div>
+        </div>
+
+        <div class="usecase-card">
+          <div class="emoji">🌐</div>
+          <div class="usecase-text">
+            <h4>Apps or websites</h4>
+            <p>Create tokens for MVPs or live apps that get traded based on growing traction.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</div></div></div><div class="bubble-element Group cmiku bubble-r-container flex column" style="display: none;"><div class="bubble-element HTML cminaM" style="display: none;"><iframe src="javascript:window[&quot;contents&quot;]" style="width: 100%; height: 100%;" src="./deed.so_files/saved_resource(2).html"></iframe></div></div><div class="bubble-element Group cminaY bubble-r-container flex column"><div class="bubble-element HTML cmind"><div class="team-container">
+  <h2>Team: Proven Builders</h2>
+  <p>Driving Deed.so to success</p>
+  <div class="team-members">
+    <!-- Robbin -->
+    <div class="team-member">
+      <img src="./deed.so_files/6FRfASoi_400x400.jpg" alt="Robbin" class="team-photo" onerror="this.src=&#39;https://placehold.co/80x80?text=RA&#39;;">
+      <h3>Robbin</h3>
+      <h4>Founder @DeedLabs</h4>
+      <p>Building DeFi for web2 asset economies onchain. Pro liquidity miner @Yieldr Fund. Previously- Buit, scaled &amp; exited (but never got paid) an edtech startup.</p>
+      <div class="social-links">
+        <a href="https://x.com/robbin_arora" target="_blank" class="social-icon x-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#000000"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/robbin-arora21/" target="_blank" class="social-icon linkedin-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.55c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 12.9h-3.56v-5.9c0-1.41-.5-2.37-1.76-2.37-.96 0-1.53.65-1.78 1.27-.09.22-.11.53-.11.84v6.16H9.66V9h3.41v1.58c.45-.7 1.26-1.7 3.06-1.7 2.24 0 3.92 1.47 3.92 4.62v6.95z" fill="#000000"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- Manas -->
+    <div class="team-member">
+      <img src="./deed.so_files/manas.webp" alt="Manas" class="team-photo" onerror="this.src=&#39;https://placehold.co/80x80?text=M&#39;;">
+      <h3>Manas</h3>
+      <h4>Sr. Blockchain Engineer @DeedLabs</h4>
+      <p>Blockchain developer building on-chain infra for online asset economies. Previously- Full stack engineer with e-commerce and SaaS experience.</p>
+      <div class="social-links">
+        <a href="https://github.com/manas2007" target="_blank" class="social-icon github-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12c0 4.41 2.87 8.14 6.84 9.49.5.09.68-.22.68-.48v-1.69c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.61.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.21-.25-4.54-1.11-4.54-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.06.1-2.21 0 0 .7-.22 2.29.85 1.33-.39 2.76-.59 4.18-.59s2.85.2 4.18.59c1.59-1.07 2.29-.85 2.29-.85.55 1.15.2 1.96.1 2.21.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.56 4.94.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10.02 10.02 0 0022 12c0-5.52-4.48-10-10-10z" fill="#000000"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/manas-kataria-641489134/" target="_blank" class="social-icon linkedin-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.55c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 12.9h-3.56v-5.9c0-1.41-.5-2.37-1.76-2.37-.96 0-1.53.65-1.78 1.27-.09.22-.11.53-.11.84v6.16H9.66V9h3.41v1.58c.45-.7 1.26-1.7 3.06-1.7 2.24 0 3.92 1.47 3.92 4.62v6.95z" fill="#000000"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Load DM Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+/* Team Section */
+.team-container {
+  background: #FFFFFF;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.team-container h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.team-container p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  width: 48%;
+  max-width: 360px;
+  background: #F5F5F5;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
+}
+
+.team-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  object-fit: cover;
+  border: 2px solid #B0B0B0;
+}
+
+/* Shared Styles for Team */
+.team-member h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.team-member h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s ease;
+  overflow: visible;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icon:hover svg path {
+  fill: #00FF99;
+}
+
+.linkedin-icon::before {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.linkedin-icon:hover::before {
+  background: #00FF99;
+}
+
+.web-icon::before {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.web-icon:hover::before {
+  background: #00FF99;
+}
+
+.github-icon::before {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.github-icon:hover::before {
+  background: #00FF99;
+}
+
+@media (max-width: 768px) {
+  .team-members {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .team-member h3 {
+    font-size: 16px;
+  }
+
+  .team-member h4 {
+    font-size: 12px;
+  }
+
+  .team-member p {
+    font-size: 12px;
+  }
+}
+</style></div></div><div class="bubble-element Group cmioaG bubble-r-container flex column" style="display: none; background-color: rgb(255, 255, 255);"><div class="bubble-element HTML cmioaM" style="display: none;"><div class="tokenomics-overview">
+  <h2>Tokenomics: DEED Distribution</h2>
+  <p>Powering the Deed.so ecosystem</p>
+  <div class="key-assumptions">
+    <div class="assumption-card">
+      <h3>Total Supply</h3>
+      <p>1,500,000,000 DEED</p>
+    </div>
+    <div class="assumption-card">
+      <h3>TGE Date</h3>
+      <p>TBD</p>
+    </div>
+    <div class="assumption-card">
+      <h3>Initial FDV</h3>
+      <p>$15,000,000</p>
+    </div>
+    <div class="assumption-card">
+      <h3>Initial Market Cap</h3>
+      <p>TBD</p>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Load DM Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.tokenomics-overview {
+  background: #FFFFFF;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.tokenomics-overview h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.tokenomics-overview p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.key-assumptions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.assumption-card {
+  width: 22%;
+  background: #F5F5F5;
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.assumption-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
+}
+
+.assumption-card h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.assumption-card p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .key-assumptions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .assumption-card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+</style></div><div class="bubble-element Group cmiok bubble-r-container flex column" style="display: none; background-color: rgb(255, 255, 255);"><div class="bubble-element HTML cmipaI" style="display: none; max-width: unset; max-height: unset;"><iframe src="javascript:window[&quot;contents&quot;]" style="width: 100%; height: 100%;" src="./deed.so_files/saved_resource(3).html"></iframe></div><div class="bubble-element HTML cmiuaG" style="max-height: unset;"><iframe src="javascript:window[&quot;contents&quot;]" style="width: 100%; height: 100%;" src="./deed.so_files/saved_resource(4).html"></iframe></div><div class="bubble-element HTML cmiuaA" style="max-width: unset; max-height: unset;"><div class="vesting-details-section">
+  <h2>Vesting Details</h2>
+  <div class="table-container">
+    <table class="vesting-table">
+      <thead>
+        <tr>
+          <th>Group</th>
+          <th>Allocation %</th>
+          <th>Unlock % at TGE</th>
+          <th>Cliff Period</th>
+          <th>Vesting Duration</th>
+          <th>Vesting Frequency</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pre-TGE Sale</td>
+          <td>12%</td>
+          <td>40%</td>
+          <td>0 months</td>
+          <td>4 months</td>
+          <td>15% monthly</td>
+        </tr>
+        <tr>
+          <td>Community Sale-I</td>
+          <td>4%</td>
+          <td>40%</td>
+          <td>Until sale completion</td>
+          <td>4 months</td>
+          <td>15% monthly</td>
+        </tr>
+        <tr>
+          <td>Community Sale-II</td>
+          <td>4%</td>
+          <td>30%</td>
+          <td>Until sale completion</td>
+          <td>7 months</td>
+          <td>10% monthly</td>
+        </tr>
+        <tr>
+          <td>Community Sale-III</td>
+          <td>13%</td>
+          <td>30%</td>
+          <td>Until sale completion</td>
+          <td>7 months</td>
+          <td>10% monthly</td>
+        </tr>
+        <tr>
+          <td>Private Sale (Seed &amp; Strategic)</td>
+          <td>5%</td>
+          <td>10%</td>
+          <td>6 months</td>
+          <td>24 months</td>
+          <td>Linear</td>
+        </tr>
+        <tr>
+          <td>Liquidity &amp; Market Making</td>
+          <td>12%</td>
+          <td>75%</td>
+          <td>0 months</td>
+          <td>12 months</td>
+          <td>25% after 12 months</td>
+        </tr>
+        <tr>
+          <td>Community &amp; Ecosystem Incentives</td>
+          <td>20%</td>
+          <td>10%</td>
+          <td>0 months</td>
+          <td>24 months</td>
+          <td>Linear</td>
+        </tr>
+        <tr>
+          <td>DAO Treasury</td>
+          <td>10%</td>
+          <td>20%</td>
+          <td>0 months</td>
+          <td>24 months</td>
+          <td>Linear</td>
+        </tr>
+        <tr>
+          <td>Team</td>
+          <td>20%</td>
+          <td>0%</td>
+          <td>12 months</td>
+          <td>30 months</td>
+          <td>Linear</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.vesting-details-section {
+  background: #FFFFFF;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.vesting-details-section h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.vesting-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+.vesting-table th,
+.vesting-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.vesting-table th {
+  background-color: #E5E5E5;
+  color: #000000;
+  font-weight: bold;
+}
+
+.vesting-table tr:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+.vesting-table tr:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+.vesting-table tr:hover {
+  background-color: #E0E0E0;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .vesting-table thead {
+    display: none;
+  }
+
+  .vesting-table, .vesting-table tbody, .vesting-table tr, .vesting-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .vesting-table tr {
+    margin-bottom: 15px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .vesting-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+  }
+
+  .vesting-table td:last-child {
+    border-bottom: none;
+  }
+
+  .vesting-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    color: #444;
+    margin-bottom: 4px;
+  }
+
+  .vesting-table td[data-label="Group"] {
+    font-size: 15px;
+    background-color: #E5E5E5;
+    font-weight: bold;
+    padding: 10px 12px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+</style>
+
+<script>
+// Add data-labels dynamically for mobile
+document.addEventListener("DOMContentLoaded", () => {
+  const labels = [
+    "Group", "Allocation %", "Unlock % at TGE",
+    "Cliff Period", "Vesting Duration", "Vesting Frequency"
+  ];
+
+  document.querySelectorAll(".vesting-table tbody tr").forEach(row => {
+    row.querySelectorAll("td").forEach((td, index) => {
+      td.setAttribute("data-label", labels[index]);
+    });
+  });
+});
+</script>
+```</div><div class="bubble-element HTML cmiuaS"><div class="community-sales-section">
+  <h2>Community Sales</h2>
+  <div class="sales-cards">
+    <div class="cards-row">
+      <div class="sale-card">
+        <h3>Community Sale-I (Q3' 25, TGE)</h3>
+        <p>Tokens: 180M (12%)</p>
+        <p>Price: 30M @$0.0067, 45M @$0.0077, 45M @$0.0085, 45M @$0.009, 15M @$0.0095</p>
+        <p>Raise: $1,477,500</p>
+        <p>TGE Unlock: 40% (72M)</p>
+        <p>Vesting: 15%/month over 4 months (Oct 2025 - Jan 2026)</p>
+        <p>FDV: $15M</p>
+        <p>Market Cap: $2.7M</p>
+      </div>
+      <div class="sale-card">
+        <h3>Community Sale-II (Q4' 25)</h3>
+        <p>Tokens: 60M (4%)</p>
+        <p>Price: $0.025 or market price whichever is higher</p>
+        <p>Raise: $1,500,000</p>
+        <p>TGE Unlock: 40% (24M)</p>
+        <p>Vesting: 15%/month over 4 months (Jan 2026 - Apr 2026)</p>
+        <p>FDV: $37.5M</p>
+        <p>Market Cap: $9.5M</p>
+      </div>
+    </div>
+    <div class="cards-row">
+      <div class="sale-card">
+        <h3>Community Sale-III (Q1' 26)</h3>
+        <p>Tokens: 60M (4%)</p>
+        <p>Price: $0.05 or market price whichever is higher</p>
+        <p>Raise: $3,000,000</p>
+        <p>TGE Unlock: 30% (18M)</p>
+        <p>Vesting: 10%/month over 7 months (Apr 2026 - Oct 2026)</p>
+        <p>FDV: $75M</p>
+        <p>Market Cap: $27M</p>
+      </div>
+      <div class="sale-card">
+        <h3>Community Sale-IV (Q2' 26)</h3>
+        <p>Tokens: 167M (13%)</p>
+        <p>Price: $0.15 or market price whichever is higher</p>
+        <p>Raise: $25,000,000</p>
+        <p>TGE Unlock: 30% (58.5M)</p>
+        <p>Vesting: 10%/month over 7 months (Jul 2026 - Jan 2027)</p>
+        <p>FDV: $225M</p>
+        <p>Market Cap: $100M</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Load DM Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.community-sales-section {
+  background: #FFFFFF;
+  padding: 30px 15px;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.community-sales-section h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.sales-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cards-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cards per row on desktop */
+  gap: 15px;
+  justify-items: center;
+}
+
+.sale-card {
+  border: 2px solid #E5E5E5; /* Light grey border by default */
+  border-radius: 6px;
+  padding: 15px;
+  width: 100%;
+  max-width: 400px; /* Adjusted for 2 cards per row */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Alternating background colors */
+.sale-card:nth-child(odd) {
+  background: #F5F5F5; /* Light grey for odd cards */
+}
+
+.sale-card:nth-child(even) {
+  background: #FFFFFF; /* White for even cards */
+}
+
+.sale-card h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.sale-card p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  color: #000000;
+  margin: 3px 0;
+}
+
+.sale-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #C8E6C9; /* Light green on hover */
+}
+
+@media (max-width: 768px) {
+  .community-sales-section {
+    padding: 20px 10px;
+  }
+
+  .community-sales-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .cards-row {
+    grid-template-columns: 1fr; /* Stack cards vertically on mobile */
+    gap: 10px;
+  }
+
+  .sale-card {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .sale-card h3 {
+    font-size: 14px;
+  }
+
+  .sale-card p {
+    font-size: 10px;
+  }
+
+  /* Maintain alternating colors on mobile */
+  .sale-card:nth-child(odd) {
+    background: #F5F5F5;
+  }
+
+  .sale-card:nth-child(even) {
+    background: #FFFFFF;
+  }
+
+  /* Tap effect for mobile */
+  .sale-card:active {
+    background: #C8E6C9; /* Light green on tap */
+    transform: scale(0.98);
+  }
+}
+</style></div></div></div><div class="bubble-element Group cmiyaE bubble-r-container flex column" style="display: none; background-color: rgb(245, 245, 245);"><div class="bubble-element Group cmjaFaS bubble-r-container flex row" style="background-color: rgb(245, 245, 245);"><div class="bubble-element Group cmjaFp bubble-r-container flex column" style="background-color: rgb(245, 245, 245);"><div class="bubble-element Group cmlhaF bubble-r-container flex column" style="background-color: rgb(245, 245, 245);"><div class="bubble-element Group cmlwaW bubble-r-container flex row"><div class="bubble-element Group cmmaAk bubble-r-container flex row"><button class="bubble-element materialicons-Materialicon" style="align-self: center; min-width: 4px; order: 1; width: 4px; flex-grow: 1; margin: 0px; height: 20px;"></button></div></div><div class="bubble-element Group cmlyaV bubble-r-container flex row"><div class="bubble-element Group cmmaBaC bubble-r-container flex row" style="display: none;"><button class="bubble-element materialicons-Materialicon" style="align-self: center; min-width: 4px; order: 1; width: 4px; flex-grow: 1; margin: 0px; height: 20px;"></button></div></div></div><div class="bubble-element Group cmjaVaZ bubble-r-container flex column" data-outline="true" style="display: none; background-color: rgb(255, 255, 255); box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;"><div class="bubble-element Group cmjaVf bubble-r-container flex row" style="gap: unset; max-height: unset; background-color: var(--color_primary_contrast_default);"><div class="bubble-element Group cmjze bubble-r-container flex column" data-outline="true" style="max-height: unset; box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;"><div class="bubble-element Group cmjzq bubble-r-container flex column" style="background-color: rgb(255, 255, 255);"><div class="bubble-element HTML cmjzy"></div></div></div></div></div></div></div></div><div class="bubble-element 1488796042609x768734193128308700-AAP" id="PhantomConnection" style="align-self: flex-start; min-width: 100px; max-width: 100px; order: 52; min-height: 30px; max-height: 30px; height: 30px; flex-grow: 1; width: 100px; margin: 0px; z-index: 43;"></div><div class="bubble-element HTML cmoaDaX"><!-- DM Sans font import -->
+<link href="./deed.so_files/css2(1)" rel="stylesheet">
+
+<div class="market-size-section">
+  <h1>Our Vision: Reimagining the Internet Economy</h1>
+  <p class="sub-heading">Building Onchain Economies for the (web2) Internet</p>
+  <div class="visual-container">
+    <div class="metrics-column">
+      <h3>Annual Digital Activity</h3>
+      <div class="metric">
+        <span class="metric-value">500B</span>
+        <span class="metric-label">Text Posts</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">2B</span>
+        <span class="metric-label">Videos Posted</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">1T</span>
+        <span class="metric-label">Likes</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">300B</span>
+        <span class="metric-label">Shares</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">500M</span>
+        <span class="metric-label">Live Streams</span>
+      </div>
+      <div class="total-value">
+        <h4>Total Value of Digital Work: <span>$5 Trillion</span></h4>
+        <p class="vision-statement">We envision trustless smart contracts &amp; seamless crypto payments for such digital work onchain.</p>
+      </div>
+    </div>
+    <div class="metrics-column">
+      <h3>Total Online Assets</h3>
+      <div class="metric">
+        <span class="metric-value">51M</span>
+        <span class="metric-label">YouTube Channels</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">500M</span>
+        <span class="metric-label">X Handles</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">200M</span>
+        <span class="metric-label">Instagram Handles</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">10M</span>
+        <span class="metric-label">Total Mobile Apps (Incl. Games)</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">1.5B</span>
+        <span class="metric-label">Total Websites</span>
+      </div>
+      <div class="total-value">
+        <p class="vision-statement"><b>Total value of internet economies: <span>$15 Trillion</span>.</b><br> We envision tokenized assets thriving in onchain economies.</p>
+      </div>
+    </div>
+  </div>
+  <a href="https://docs.google.com/presentation/d/1yytMC1YCS0n6H6cfcWEQVNTHxWXPCdu3ROkFUxhmnKs" target="_blank" class="whitepaper-button">Download Whitepaper</a>
+</div>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.market-size-section {
+  background: #FFFFFF;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.market-size-section h1 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.market-size-section .sub-heading {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.visual-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.metrics-column {
+  flex: 1;
+  min-width: 300px;
+  background: #F5F5F5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.metrics-column h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.metric:hover {
+  transform: scale(1.02);
+  background-color: #C8E6C9;
+}
+
+.metric-value {
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+}
+
+.metric-label {
+  font-size: 14px;
+  color: #333333;
+  flex: 1;
+  text-align: left;
+}
+
+.total-value {
+  margin-top: 15px;
+}
+
+.total-value h4 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.total-value span {
+  color: #4CAF50; /* Make both $5T and $15T green */
+}
+
+.total-value .vision-statement {
+  font-size: 16px;
+  color: #333333;
+  font-style: italic;
+}
+
+.whitepaper-button {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #4CAF50;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.whitepaper-button:hover {
+  background-color: #388E3C;
+}
+
+@media (max-width: 768px) {
+  .market-size-section {
+    padding: 20px 10px;
+  }
+
+  .market-size-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .market-size-section .sub-heading {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .visual-container {
+    gap: 15px;
+  }
+
+  .metrics-column {
+    min-width: 100%;
+    padding: 15px;
+  }
+
+  .metrics-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .metric-value {
+    font-size: 20px;
+  }
+
+  .metric-label {
+    font-size: 12px;
+  }
+
+  .total-value h4 {
+    font-size: 14px;
+  }
+
+  .total-value .vision-statement {
+    font-size: 14px;
+  }
+
+  .whitepaper-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+</style>
+</div><div class="bubble-element HTML cmoaDaR" style="display: none;"><div class="partners-section">
+  <h2>Our Partners</h2>
+  <p class="sub-text">(Existing &amp; Prospective)</p>
+  <div class="partners-container">
+    <div class="partner-category">
+      <h3>Blockchains</h3>
+      <div class="partner-logos">
+        <a href="https://solana.com/" target="_blank" class="partner-logo">
+          <img src="./deed.so_files/solana.png" alt="Solana Logo">
+        </a>
+        <a href="https://base.org/" target="_blank" class="partner-logo">
+          <img src="./deed.so_files/base logo.jpeg" alt="Base Logo">
+        </a>
+      </div>
+    </div>
+    <div class="partner-category">
+      <h3>Exchanges</h3>
+      <div class="partner-logos">
+        <a href="https://www.mexc.com/" target="_blank" class="partner-logo">
+          <img src="./deed.so_files/mexc.png" alt="MEXC Logo">
+        </a>
+        <a href="https://www.bitmart.com/" target="_blank" class="partner-logo">
+          <img src="./deed.so_files/full-bitmart-logo.webp" alt="BitMart Logo">
+        </a>
+        <a href="https://www.gate.io/" target="_blank" class="partner-logo">
+          <img src="./deed.so_files/gate logo.svg" alt="Gate Logo">
+        </a>
+        <div class="logo-break"></div>
+        <a href="https://www.htx.com/" target="_blank" class="partner-logo">
+          <img src="./deed.so_files/HTX_logo.png" alt="HTX Logo">
+        </a>
+      </div>
+    </div>
+    <div class="partner-category">
+      <h3>Advisors</h3>
+      <div class="partner-logos">
+        <a href="https://w3x.network/" target="_blank" class="partner-logo">
+          <img src="./deed.so_files/Screenshot 2025-04-13 at 4.12.44 PM.png" alt="W3X Network Logo">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Load DM Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.partners-section {
+  background: #FFFFFF;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.partners-section h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.partners-section .sub-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.partners-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.partner-category {
+  background: #F5F5F5;
+  border-radius: 8px;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.partner-category h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.partner-logo {
+  display: inline-block;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 5px;
+  background: #FFFFFF;
+}
+
+.partner-logo img {
+  width: 120px;
+  height: 40px;
+  object-fit: contain;
+  filter: grayscale(50%);
+  transition: filter 0.3s ease;
+}
+
+.partner-logo:hover {
+  transform: scale(1.1);
+  border-color: #4CAF50;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.partner-logo:hover img {
+  filter: grayscale(0%);
+}
+
+.logo-break {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .partners-section {
+    padding: 20px 10px;
+  }
+
+  .partners-section h2 {
+    font-size: 24px;
+  }
+
+  .partners-section .sub-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .partners-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .partner-category {
+    padding: 10px;
+  }
+
+  .partner-category h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .partner-logos {
+    gap: 8px;
+  }
+
+  .partner-logo {
+    border: 1px solid #E5E5E5;
+    padding: 3px;
+  }
+
+  .partner-logo img {
+    width: 100px;
+    height: 35px;
+  }
+
+  .partner-logo:active {
+    background: #C8E6C9; /* Light green on tap */
+    transform: scale(0.95);
+  }
+
+  .partner-logo:active img {
+    filter: grayscale(0%);
+  }
+}
+</style></div><div class="bubble-element Group cmiaLb bubble-r-container flex row"><div class="clickable-element bubble-element Image cmiaLg"><img src="./deed.so_files/X_logo.jpg"></div><button class="clickable-element bubble-element Icon cmiaNm" tabindex="" style="display: flex;"><svg viewBox="0 0 32 32" data-icon-set="fa" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/fontawesome-4.7.0.svg#fa-github"></use></svg></button><div class="clickable-element bubble-element Image cmoaBaZ"><img src="./deed.so_files/icons8-telegram-50 (1).png"></div></div><div class="bubble-element Text cmiaLi">For any queries contact at reachus@deed.so</div><div class="bubble-element Text cmiaLo clickable-element">Terms &amp; conditions</div><div class="bubble-element Text cmiaLu">Copyright @Deed Labs</div><div class="bubble-element 1599235531792x330908492096602100-AAC" style="align-self: flex-start; min-width: 20px; max-width: 20px; order: 59; min-height: 20px; max-height: 20px; height: 20px; flex-grow: 1; width: 20px; margin: 0px; z-index: 49;"></div></div><div class="bubble-element GroupFocus cmiaPj bubble-r-container flex column" style="background-color: rgb(255, 255, 255); display: none;"><button class="bubble-element materialicons-Materialicon clickable-element" style="align-self: flex-end; min-width: 6px; order: 1; flex-grow: 0; flex-shrink: 0; width: calc(100% + 0px); margin: 20px 0px 0px; height: 30px;"></button></div><div class="bubble-element FloatingGroup cmiaRaE floating-group bubble-r-container flex column" style="display: none; background-color: var(--color_primary_contrast_default);"><button class="bubble-element materialicons-Materialicon clickable-element" style="align-self: flex-end; min-width: 30px; max-width: 30px; order: 1; flex-grow: 0; flex-shrink: 0; width: 30px; margin: 20px 20px 0px 0px; height: 30px;"></button><div class="bubble-element HTML cmixw"><style>
+    .progressier-install-button {
+        width: 200px;
+        max-width: 90%;
+        height: 40px;
+        background-color: transparent;
+        color: #000000;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        border: 2px solid #1ABF85;
+        border-radius: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .progressier-install-button:hover {
+        background-color: #1ABF851A;
+        border-color: #17A673;
+    }
+
+    @media (max-width: 768px) {
+        .progressier-install-button {
+            width: 180px;
+            font-size: 13px;
+            padding: 8px;
+        }
+    }
+</style>
+<button class="progressier-install-button captured initialized" data-icons="false" data-install="Download dApp" data-installed="Download dApp" data-hide-standalone="false"><span style="display:flex;justify-content:center;align-items:center;height:100%;"><span style="padding:0px 15px;">Download dApp</span></span></button>
+<script>
+    if (window.Progressier) {
+        window.Progressier.init();
+    } else {
+        setTimeout(() => {
+            if (window.Progressier) window.Progressier.init();
+        }, 1000);
+    }
+</script></div></div><div class="greyout cmjaBy" style="display: none;"></div><div class="bubble-element Popup cmjaBy bubble-r-container flex column" data-outline="true" style="left: 0px; right: 0px; bottom: unset; box-shadow: rgb(0, 0, 0) 2px 2px 4px 0px; background-color: rgb(255, 255, 255); display: none; top: 20px; position: fixed;"><div class="bubble-element Group cmkaBp bubble-r-container flex column" style="background-color: rgb(255, 255, 255);"><div class="bubble-element HTML cmkaCaN">
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive KOL Reward Table for Deed.so</title>
+    <link href="./deed.so_files/css2(2)" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            min-width: 80px; /* Ensures columns don't collapse too much */
+        }
+        th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        @media screen and (max-width: 600px) {
+            table {
+                max-width: 320px;
+            }
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+                min-width: 60px;
+            }
+        }
+    </style>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Followers</th>
+                <th>DEEDs</th>
+                <th>Reward Amt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>5K–10K</td>
+                <td>10,000</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>10K–50K</td>
+                <td>20,000</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>50K–200K</td>
+                <td>30,000</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>200K–500K</td>
+                <td>60,000</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>500K+</td>
+                <td>100,000</td>
+                <td>$500</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div></div></div><div class="greyout cmkgg" style="display: none;"></div><div class="bubble-element Popup cmkgg bubble-r-container flex column" data-outline="true" style="left: 0px; right: 0px; bottom: unset; box-shadow: rgb(0, 0, 0) 2px 2px 4px 0px; background-color: rgb(255, 255, 255); display: none; top: 20px; position: fixed;"><div class="bubble-element HTML cmkgm"><iframe src="javascript:window[&quot;contents&quot;]" style="width: 100%; height: 100%;" src="./deed.so_files/saved_resource(5).html"></iframe></div></div><div class="greyout cmkgs" style="display: none;"></div><div class="bubble-element Popup cmkgs bubble-r-container flex column" data-outline="true" style="left: 0px; right: 0px; bottom: unset; box-shadow: rgb(0, 0, 0) 2px 2px 4px 0px; background-color: rgb(255, 255, 255); display: none; top: 20px; position: fixed;"><div class="bubble-element HTML cmkgy"><div class="team-container">
+  <h2>Team: Proven Builders</h2>
+  <p>Driving Deed.so to success</p>
+  <div class="team-members">
+    <!-- Robbin -->
+    <div class="team-member">
+      <img src="./deed.so_files/6FRfASoi_400x400.jpg" alt="Robbin" class="team-photo" onerror="this.src=&#39;https://placehold.co/80x80?text=RA&#39;;">
+      <h3>Robbin</h3>
+      <h4>Founder @DeedLabs</h4>
+      <p>Building DeFi for web2 assets &amp; their communities onchain. Pro liquidity miner @Yieldr Fund. Previously- Buit, scaled &amp; exited an edtech startup.</p>
+      <div class="social-links">
+        <a href="https://x.com/robbin_arora" target="_blank" class="social-icon x-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#000000"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/robbin-arora21/" target="_blank" class="social-icon linkedin-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.55c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 12.9h-3.56v-5.9c0-1.41-.5-2.37-1.76-2.37-.96 0-1.53.65-1.78 1.27-.09.22-.11.53-.11.84v6.16H9.66V9h3.41v1.58c.45-.7 1.26-1.7 3.06-1.7 2.24 0 3.92 1.47 3.92 4.62v6.95z" fill="#000000"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- Manas -->
+    <div class="team-member">
+      <img src="./deed.so_files/manas.webp" alt="Manas" class="team-photo" onerror="this.src=&#39;https://placehold.co/80x80?text=M&#39;;">
+      <h3>Manas</h3>
+      <h4>Sr. Blockchain Engineer @DeedLabs</h4>
+      <p>Blockchain developer building on-chain infra for online asset economies. Previously- Full stack engineer with e-commerce and SaaS experience.</p>
+      <div class="social-links">
+        <a href="https://github.com/manas2007" target="_blank" class="social-icon github-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12c0 4.41 2.87 8.14 6.84 9.49.5.09.68-.22.68-.48v-1.69c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.61.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.21-.25-4.54-1.11-4.54-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.06.1-2.21 0 0 .7-.22 2.29.85 1.33-.39 2.76-.59 4.18-.59s2.85.2 4.18.59c1.59-1.07 2.29-.85 2.29-.85.55 1.15.2 1.96.1 2.21.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.56 4.94.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10.02 10.02 0 0022 12c0-5.52-4.48-10-10-10z" fill="#000000"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/manas-kataria-641489134/" target="_blank" class="social-icon linkedin-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.55c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 12.9h-3.56v-5.9c0-1.41-.5-2.37-1.76-2.37-.96 0-1.53.65-1.78 1.27-.09.22-.11.53-.11.84v6.16H9.66V9h3.41v1.58c.45-.7 1.26-1.7 3.06-1.7 2.24 0 3.92 1.47 3.92 4.62v6.95z" fill="#000000"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- Ahwan -->
+    <div class="team-member">
+      <img src="./deed.so_files/2023-05-18-17_57_18-The-Journey-of-an-NFT-Avatar-Word-Product-Activation-Failed.png" alt="Ahwan" class="team-photo" onerror="this.src=&#39;https://placehold.co/80x80?text=A&#39;;">
+      <h3>Ahwan</h3>
+      <h4>Tech Advisor @DeedLabs</h4>
+      <p>Tech Lead Advisor on building on-chain infra for online asset economies. VP of Tech at an AI startup for FMCG retail.</p>
+      <div class="social-links">
+        <a href="https://github.com/ahwankumar" target="_blank" class="social-icon github-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12c0 4.41 2.87 8.14 6.84 9.49.5.09.68-.22.68-.48v-1.69c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.61.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.21-.25-4.54-1.11-4.54-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.06.1-2.21 0 0 .7-.22 2.29.85 1.33-.39 2.76-.59 4.18-.59s2.85.2 4.18.59c1.59-1.07 2.29-.85 2.29-.85.55 1.15.2 1.96.1 2.21.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.56 4.94.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10.02 10.02 0 0022 12c0-5.52-4.48-10-10-10z" fill="#000000"></path>
+        </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/ahwankumar" target="_blank" class="social-icon linkedin-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.55c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 12.9h-3.56v-5.9c0-1.41-.5-2.37-1.76-2.37-.96 0-1.53.65-1.78 1.27-.09.22-.11.53-.11.84v6.16H9.66V9h3.41v1.58c.45-.7 1.26-1.7 3.06-1.7 2.24 0 3.92 1.47 3.92 4.62v6.95z" fill="#000000"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- Himangi (Lead Marketing) -->
+    <div class="team-member">
+      <img src="./deed.so_files/ahwan.avif" alt="Himangi" class="team-photo" onerror="this.src=&#39;https://placehold.co/80x80?text=PS&#39;;">
+      <h3>Himangi @Prinzal</h3>
+      <h4>Creative Lead @DeedLabs</h4>
+      <p>Driving creative &amp; marketing strategies for Deed.so’s growth. Co-founder of digital marketing startup scaling media campaigns and community engagement.</p>
+      <div class="social-links">
+        <a href="http://www.prinzal.com/" target="_blank" class="social-icon web-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" fill="#000000"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/himangi-kataria-52a34277" target="_blank" class="social-icon linkedin-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.55c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 12.9h-3.56v-5.9c0-1.41-.5-2.37-1.76-2.37-.96 0-1.53.65-1.78 1.27-.09.22-.11.53-.11.84v6.16H9.66V9h3.41v1.58c.45-.7 1.26-1.7 3.06-1.7 2.24 0 3.92 1.47 3.92 4.62v6.95z" fill="#000000"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Advisors Section -->
+<div class="advisors-container">
+  <h2>Advisors: Strategic Guidance</h2>
+  <p>Supporting deed.so’s vision</p>
+  <div class="advisors-members">
+    <!-- Erik Doung -->
+    <div class="advisor-member">
+      <img src="./deed.so_files/0qjXxf95_400x400.jpg" alt="Erik Doung" class="advisor-photo" onerror="this.src=&#39;https://placehold.co/80x80?text=ED&#39;;">
+      <h3>Erik Doung</h3>
+      <h4>Founder at W3X Accelerator</h4>
+      <p>Founder of W3X Accelerator, guiding Deed.so’s growth in the Web3 space.</p>
+      <div class="social-links">
+        <a href="https://x.com/Erikduong71" target="_blank" class="social-icon x-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#000000"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/tuanhduong/" target="_blank" class="social-icon linkedin-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.55c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 12.9h-3.56v-5.9c0-1.41-.5-2.37-1.76-2.37-.96 0-1.53.65-1.78 1.27-.09.22-.11.53-.11.84v6.16H9.66V9h3.41v1.58c.45-.7 1.26-1.7 3.06-1.7 2.24 0 3.92 1.47 3.92 4.62v6.95z" fill="#000000"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Load DM Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+/* Team Section */
+.team-container {
+  background: #FFFFFF;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.team-container h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.team-container p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  width: 48%;
+  max-width: 360px;
+  background: #F5F5F5;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
+}
+
+.team-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  object-fit: cover;
+  border: 2px solid #B0B0B0;
+}
+
+/* Advisors Section */
+.advisors-container {
+  background: #FFFFFF;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.advisors-container h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.advisors-container p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.advisors-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.advisor-member {
+  width: 48%;
+  max-width: 360px;
+  background: #F5F5F5;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.advisor-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
+}
+
+.advisor-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  object-fit: cover;
+  border: 2px solid #B0B0B0;
+}
+
+/* Shared Styles for Team and Advisors */
+.team-member h3, .advisor-member h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.team-member h4, .advisor-member h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.team-member p, .advisor-member p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s ease;
+  overflow: visible;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icon:hover svg path {
+  fill: #00FF99;
+}
+
+.linkedin-icon::before {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.linkedin-icon:hover::before {
+  background: #00FF99;
+}
+
+.web-icon::before {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.web-icon:hover::before {
+  background: #00FF99;
+}
+
+.github-icon::before {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.github-icon:hover::before {
+  background: #00FF99;
+}
+
+@media (max-width: 768px) {
+  .team-members, .advisors-members {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member, .advisor-member {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .team-member h3, .advisor-member h3 {
+    font-size: 16px;
+  }
+
+  .team-member h4, .advisor-member h4 {
+    font-size: 12px;
+  }
+
+  .team-member p, .advisor-member p {
+    font-size: 12px;
+  }
+}
+</style>
+```</div></div><div class="greyout cmkhaE" style="display: none;"></div><div class="bubble-element Popup cmkhaE bubble-r-container flex column" data-outline="true" style="left: 0px; right: 0px; bottom: unset; box-shadow: rgb(0, 0, 0) 2px 2px 4px 0px; background-color: rgb(255, 255, 255); display: none; top: 20px; position: fixed;"><div class="bubble-element HTML cmkhaK"><div class="market-size-section">
+  <h1>Our Vision: Reimagining the Internet Economy</h1>
+  <p class="sub-heading">Unlocking the Value of Digital Work and Assets with Trustless Smart Contracts</p>
+  <div class="visual-container">
+    <div class="metrics-column">
+      <h3>Annual Digital Activity</h3>
+      <div class="metric">
+        <span class="metric-value">500B</span>
+        <span class="metric-label">Text Posts</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">2B</span>
+        <span class="metric-label">Videos Posted</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">1T</span>
+        <span class="metric-label">Likes</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">300B</span>
+        <span class="metric-label">Shares</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">500M</span>
+        <span class="metric-label">Live Streams</span>
+      </div>
+      <div class="total-value">
+        <h4>Total Value of Digital Work: <span>$5 Trillion</span></h4>
+        <p class="vision-statement">We envision trustless smart contracts &amp; seamless crypto payments for such digital work onchain.</p>
+      </div>
+    </div>
+    <div class="metrics-column">
+      <h3>Total Online Assets</h3>
+      <div class="metric">
+        <span class="metric-value">51M</span>
+        <span class="metric-label">YouTube Channels</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">500M</span>
+        <span class="metric-label">X Handles</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">200M</span>
+        <span class="metric-label">Instagram Handles</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">10M</span>
+        <span class="metric-label">Total Mobile Apps (Incl. Games)</span>
+      </div>
+      <div class="metric">
+        <span class="metric-value">1.5B</span>
+        <span class="metric-label">Total Websites</span>
+      </div>
+      <div class="total-value">
+        <p class="vision-statement">We envision tokenized assets thriving in onchain economies.</p>
+      </div>
+    </div>
+  </div>
+  <a href="https://docs.google.com/presentation/d/1yytMC1YCS0n6H6cfcWEQVNTHxWXPCdu3ROkFUxhmnKs/edit#slide=id.g336e982c3cb_0_4" target="_blank" class="whitepaper-button">Download Whitepaper</a>
+</div>
+
+<style>
+/* Load DM Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.market-size-section {
+  background: #FFFFFF;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.market-size-section h1 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.market-size-section .sub-heading {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.visual-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.metrics-column {
+  flex: 1;
+  min-width: 300px;
+  background: #F5F5F5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.metrics-column h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.metric:hover {
+  transform: scale(1.02);
+  background-color: #C8E6C9; /* Light green on hover */
+}
+
+.metric-value {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+}
+
+.metric-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #333333;
+  flex: 1;
+  text-align: left;
+}
+
+.total-value {
+  margin-top: 15px;
+}
+
+.total-value h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.total-value h4 span {
+  color: #4CAF50; /* Subtle green for emphasis */
+}
+
+.total-value .vision-statement {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px; /* Increased font size */
+  color: #333333;
+  font-style: italic;
+}
+
+.whitepaper-button {
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #4CAF50;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.whitepaper-button:hover {
+  background-color: #388E3C;
+}
+
+@media (max-width: 768px) {
+  .market-size-section {
+    padding: 20px 10px;
+  }
+
+  .market-size-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .market-size-section .sub-heading {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .visual-container {
+    gap: 15px;
+  }
+
+  .metrics-column {
+    min-width: 100%;
+    padding: 15px;
+  }
+
+  .metrics-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .metric-value {
+    font-size: 20px;
+  }
+
+  .metric-label {
+    font-size: 12px;
+  }
+
+  .total-value h4 {
+    font-size: 14px;
+  }
+
+  .total-value .vision-statement {
+    font-size: 14px; /* Adjusted for mobile */
+  }
+
+  .whitepaper-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+</style></div></div><div class="greyout cmkaPaD0" style="display: none;"></div><div class="bubble-element Popup cmkaPaD0 bubble-r-container flex column" data-outline="true" style="left: 0px; right: 0px; bottom: unset; box-shadow: rgb(0, 0, 0) 2px 2px 4px 0px; background-color: rgb(255, 255, 255); display: none; top: 20px; position: fixed;"><div class="bubble-element Group cmkaPaQ0 bubble-r-container flex column" style="background-color: rgb(255, 255, 255);"><div class="bubble-element HTML cmkaPaV0">
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive YouTube Reward Table for Deed.so</title>
+    <link href="./deed.so_files/css2(2)" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            min-width: 80px; /* Ensures columns don't collapse too much */
+        }
+        th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        @media screen and (max-width: 600px) {
+            table {
+                max-width: 320px;
+            }
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+                min-width: 60px;
+            }
+        }
+    </style>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Channel Subs</th>
+                <th>DEEDs</th>
+                <th>Reward Amt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>50K–100K</td>
+                <td>100,000</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>100K–250K</td>
+                <td>200,000</td>
+                <td>$1500</td>
+            </tr>
+            <tr>
+                <td>250K–500K</td>
+                <td>400,000</td>
+                <td>$2000</td>
+            </tr>
+            <tr>
+                <td>500K+</td>
+                <td>600,000</td>
+                <td>$3000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div></div></div><div class="greyout cmkaRaA0" style="display: none;"></div><div class="bubble-element Popup cmkaRaA0 bubble-r-container flex column" data-outline="true" style="left: 0px; right: 0px; bottom: unset; box-shadow: rgb(0, 0, 0) 2px 2px 4px 0px; background-color: rgb(255, 255, 255); display: none; top: 20px; position: fixed;"><div class="bubble-element Group cmkaRaN0 bubble-r-container flex column" style="background-color: rgb(255, 255, 255);"><div class="bubble-element HTML cmkaRaS0">
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Instagram Reels Reward Table for Deed.so</title>
+    <link href="./deed.so_files/css2(2)" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            min-width: 80px; /* Ensures columns don't collapse too much */
+        }
+        th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        @media screen and (max-width: 600px) {
+            table {
+                max-width: 320px;
+            }
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+                min-width: 60px;
+            }
+        }
+    </style>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Followers</th>
+                <th>DEEDs</th>
+                <th>Fixed Reward</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>50K–100K</td>
+                <td>50,000</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>100K–250K</td>
+                <td>100,000</td>
+                <td>$600</td>
+            </tr>
+            <tr>
+                <td>250K–500K</td>
+                <td>150,000</td>
+                <td>$700</td>
+            </tr>
+            <tr>
+                <td>500K+</td>
+                <td>200,000</td>
+                <td>$1000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div></div></div><div class="greyout cmjaDr" style="display: none;"></div><div class="bubble-element Popup cmjaDr bubble-r-container flex column" data-outline="true" style="left: 0px; right: 0px; bottom: unset; box-shadow: rgb(0, 0, 0) 2px 2px 4px 0px; background-color: rgb(255, 255, 255); display: none; top: 20px; position: fixed;"><div class="bubble-element HTML cmjaQh">
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive X AMA Reward Table for Deed.so</title>
+    <link href="./deed.so_files/css2(2)" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            min-width: 80px; /* Prevents columns from collapsing too much */
+        }
+        th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        @media screen and (max-width: 600px) {
+            table {
+                max-width: 320px;
+            }
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+                min-width: 60px;
+            }
+        }
+    </style>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Follower Size</th>
+                <th>DEEDs</th>
+                <th>Reward Amt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10K–50K</td>
+                <td>50,000</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>50K–200K</td>
+                <td>100,000</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>200K–2M</td>
+                <td>300,000</td>
+                <td>$2000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div></div><div class="greyout cmkaKaK0" style="display: none;"></div><div class="bubble-element Popup cmkaKaK0 bubble-r-container flex column" data-outline="true" style="left: 0px; right: 0px; bottom: unset; box-shadow: rgb(0, 0, 0) 2px 2px 4px 0px; background-color: rgb(255, 255, 255); display: none; top: 20px; position: fixed;"><div class="bubble-element HTML cmkaKaM0">
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive TG AMA Reward Table for Deed.so</title>
+    <link href="./deed.so_files/css2(2)" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            min-width: 80px; /* Prevents columns from collapsing too much */
+        }
+        th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        @media screen and (max-width: 600px) {
+            table {
+                max-width: 320px;
+            }
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+                min-width: 60px;
+            }
+        }
+    </style>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Channel Subs</th>
+                <th>DEEDs</th>
+                <th>Reward Amt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>50K–100K</td>
+                <td>70,000</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td>100K–250K</td>
+                <td>100,000</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>250K+</td>
+                <td>150,000</td>
+                <td>$1000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div></div><div class="page-is-loaded"></div><div style="width: 128px !important; position: fixed !important; bottom: 10px !important; right: 10px !important; height: 29px !important; z-index: 100000000000 !important; box-shadow: 0px 0px 20px 0 #00000069 !important; background: #0205D3 !important; border-radius: 3px !important;"><div style="position: absolute;" class="notranslate" translate="no"><div style=""><img alt="Bubble" src="./deed.so_files/banner-icon.svg" style="width: 15px !important; margin-top: 7px !important; margin-left: 6px !important; float: left;"><div style="color: white; font-size: 12px; font-family: Arial, sans-serif; margin-top: 9px; float: left; margin-left: 8px; width: 95px; font-weight: bold;">Built on Bubble</div></div></div><a target="_blank" style="width: 100%; height: 100%; position: absolute;" href="https://bubble.io/?utm_source=app_mention&amp;utm_content=deed-pwa-lite"></a></div><style id="progressier-backdrop">
+		.progressier-backdrop{position:fixed;z-index: 2147483642;left:0px;top:0px;width:100vw;height:100vh;background:var(--progressierBackdrop);transition:0.4s ease-out opacity; opacity: 1;}
+		.progressier-backdrop.removing{opacity:0;}
+		body:not(.progressier-blurring)  .progressier-backdrop{display:none !important;z-index:-1 !important;}
+		.progressier-backdrop svg{display:none !important;}
+		body.progressier-blurring > *:not(.no-blurring){-webkit-backdrop-filter:blur(3px) brightness(0.7) contrast(0.8);filter: blur(3px) brightness(0.7) contrast(0.8);pointer-events:none;z-index: 888 !important;}
+		body.progressier-blurring::-webkit-scrollbar{ width:0px !important; height:0px !important;}
+		body.progressier-blurring *::-webkit-scrollbar{ width:0px !important; height:0px !important;}
+		body.progressier-blurring .progressier-push-banner{display:none !important;}
+		@media (min-width:992px){
+			body.progressier-blurring > *:not(.no-blurring){pointer-events:none;z-index: 888 !important;}	
+		}
+		@media (max-width:991px){
+			html.lock-scroll-overflow, html.lock-scroll-overflow body{overflow:hidden !important;height:100vw !important;width:100vw !important;}
+		}
+		@supports (-webkit-touch-callout: none) {
+		  -webkit-filter:grayscale(1)  blur(3px);filter: grayscale(1) blur(3px);
+		}
+	</style><div class="progressier-backdrop no-blurring"></div></body></html>
