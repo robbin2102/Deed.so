@@ -283,10 +283,24 @@ body {
     margin-bottom: 8px;
 }
 
+.founder-pivot {
+    margin-top: 24px;
+    padding: 16px 20px;
+    background: var(--light-green);
+    border-left: 4px solid var(--primary-green);
+    border-radius: 4px;
+}
+
+.founder-pivot strong {
+    color: var(--black);
+    font-size: 16px;
+}
+
 .founder-connect {
     margin-top: 24px;
     padding-top: 24px;
     border-top: 1px solid #e5e7eb;
+    text-align: center;
 }
 
 .founder-connect a {
