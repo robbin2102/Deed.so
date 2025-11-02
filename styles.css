@@ -95,6 +95,24 @@ body {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.logo-text {
+    font-size: 14px;
+    color: var(--gray-text);
+    font-weight: 400;
+}
+
 .logo h1 {
     font-size: 28px;
     font-weight: 800;
@@ -176,6 +194,59 @@ body {
     font-size: 15px;
     color: var(--gray-text);
     font-weight: 500;
+}
+
+/* Hero Tagline */
+.hero-tagline {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.tagline-text {
+    font-size: 18px;
+    color: var(--light-text);
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.tagline-cta {
+    font-size: 18px;
+    color: var(--light-text);
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+/* Platform Icons */
+.platform-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 32px;
+    padding: 24px;
+    background: rgba(99, 102, 241, 0.05);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    border-radius: 16px;
+}
+
+.platform-icons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.platform-icons img:first-child {
+    width: 48px;
+    height: 48px;
+}
+
+.platform-icons img:hover {
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 /* Closure Section */
@@ -481,6 +552,31 @@ body {
     .hero-stats {
         grid-template-columns: 1fr;
         gap: 32px;
+    }
+
+    .logo-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .platform-icons {
+        gap: 16px;
+        padding: 20px;
+    }
+
+    .platform-icons img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .platform-icons img:first-child {
+        width: 40px;
+        height: 40px;
+    }
+
+    .tagline-text,
+    .tagline-cta {
+        font-size: 16px;
     }
 
     .section-title {
